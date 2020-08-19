@@ -2064,6 +2064,8 @@ footer#wb-info {
   bottom: 0;
   width: 100%;
   height: 60px; }
+footer .backnext a {
+  line-height: 60px; }
 footer .backnext.disabled {
   color: black;
   background-color: white;
@@ -2323,6 +2325,10 @@ h2 {
   border-bottom: 1px solid white;
   border-top: 1px solid white;
   background-color: #5e5348; }
+  #wb-sm .backnext a.back:before {
+    border-right: 6px solid white; }
+  #wb-sm .backnext a.next:after {
+    border-left: 6px solid white; }
   #wb-sm .menu {
     display: block !important;
     margin-bottom: 0; }
@@ -3756,6 +3762,9 @@ h6 {
 
 .btn {
   margin-top: 10px; }
+
+.btn.btn-default.center-block.disabled {
+  color: black !important; }
 
 .btn-submit {
   margin: 10px 10px 10px 0; }
