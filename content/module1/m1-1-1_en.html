@@ -1,9 +1,9 @@
 <h1>Typical Activities</h1>
 <section role="content" class="col-md-12">
     <p>Select each Activity to learn more about key <abbr title="Information Management">IM</abbr> planning activities.</p>
-        <div class="timelineWidget row">
+    <div class="timelineWidget row">
         <div class="lnks-timeline">
-            <a id="timeline-1" class="lnk-timeline col-md-2 col-sm-4 col-xs-4 active" href="#" >
+            <a id="timeline-1" class="lnk-timeline col-md-2 col-sm-4 col-xs-4 active" href="#">
                 <span class="arrow-left"></span>
                 <!--IMPORTANT: Update headings accordingly -->
                 <h2>1. Determine the current state</h2>
@@ -16,31 +16,33 @@
                 <span class="arrow-left"></span>
                 <h2>3. Outline how you will get there</h2>
             </a>
-            
-        </div><!--lnks-timeline-->
+        </div>
+        <!--lnks-timeline-->
         <div class="cnt-timeline col-md-11">
             <div id="inline-cnt-1" class="inline-cnt">
-               <p>A key activity is performing an audit to determine where <abbr title="Information Management">IM</abbr> strengths and weaknesses lie.</p>
+                <p>A key activity is performing an audit to determine where <abbr title="Information Management">IM</abbr> strengths and weaknesses lie.</p>
                 <p>It is important to provide an accurate picture. Sometimes we see things as we want them to be, and not how they actually are.</p>
             </div>
             <div id="inline-cnt-2" class="inline-cnt">
                 <p>Key activities include: </p>
                 <ul>
-                    <li>meeting with stakeholders and senior management to gain buy-in and support for your <abbr title="Information Management">IM</abbr> vision; and </li>
-                    <li>conducting an environmental scan to ensure key information is being considered.</li>
+                    <li>meeting with stakeholders and senior management to gain buy-in and support for your <abbr title="Information Management">IM</abbr> vision</li>
+                    <li>conducting an environmental scan to ensure key information is being considered</li>
                 </ul>
             </div>
             <div id="inline-cnt-3" class="inline-cnt">
                 <p>Once you have identified the gap between your current state and your desired state, you can plan specific steps. Key activities include:</p>
                 <ul>
-                    <li>determining long-term objectives and short-term objectives; </li>
-                    <li>defining action items;</li>
-                    <li>identifying key performance indicators; and </li>
-                    <li>determining who is the lead for the plan in order to obtain sign off.</li>
+                    <li>determining long-term objectives and short-term objectives</li>
+                    <li>defining action items</li>
+                    <li>identifying key performance indicators</li>
+                    <li>determining who is the lead for the plan in order to obtain sign off</li>
                 </ul>
             </div>
-        </div> <!--cnt-timeline-->        
-    </div> <!--timelineWidget--> 
+        </div>
+        <!--cnt-timeline-->
+    </div>
+    <!--timelineWidget-->
 </section>
 <section class="col-md-4">
     <a class="btn btn-default center-block disabled wb-lbx" href="#button1">For a better understanding</a>
@@ -52,7 +54,7 @@
             <header class="modal-header overlay-hd">
                 <h2 class="modal-title" id="lbx-title">A word from an expert</h2>
             </header>
-            <div class="modal-body"> 
+            <div class="modal-body">
                 <p>When developing your <abbr title="Information Management">IM</abbr> plan, you want to make sure you have full buy-in and support from senior management.</p>
             </div>
         </section>
@@ -61,33 +63,31 @@
 <section class="col-md-4">
     <a class="btn btn-default center-block disabled wb-lbx" href="#button3">Prepare for the classroom</a>
 </section>
-
 <script type="text/javascript">
-	$(document).ready(function(e) {
-		// init la premiere timeline
-		$("#inline-cnt-1").show().attr('aria-hidden','false');
-		$('#timeline-1').attr('aria-controls','inline-cnt-1')
-		.attr('aria-expanded','true');
-	});
-	$(".lnk-timeline").click(function(e){                                        
-		e.preventDefault();
-		idCurrent = $('.lnk-timeline.active').attr('id').substring(9);                                                                                            
-		idClicked= $(this).attr('id');
-		
-		// désactiver la timeline courrante
-		$('#inline-cnt-'+idCurrent).hide();                                           
-		$('#timeline-'+idCurrent).removeClass('active')
-		$('#inline-cnt-'+idCurrent).attr('aria-expanded','false')
-		.attr('aria-hidden','true');
-		
-		//activer le timeline cliqué
-		$('#'+idClicked).addClass('active')
-		.attr('aria-controls','inline-cnt-'+idClicked.substring(9))                                 
-		.attr('aria-expanded','true');
-		$('#inline-cnt-'+idClicked.substring(9)).show().attr('aria-hidden','false');                                              
-		/*$('#inline-cnt-'+idClicked.substring(9)).animate({
-		height: 'toggle'
-		}).attr('aria-hidden','false');*/
-	});
+$(document).ready(function(e) {
+    // init la premiere timeline
+    $("#inline-cnt-1").show().attr('aria-hidden', 'false');
+    $('#timeline-1').attr('aria-controls', 'inline-cnt-1')
+        .attr('aria-expanded', 'true');
+});
+$(".lnk-timeline").click(function(e) {
+    e.preventDefault();
+    idCurrent = $('.lnk-timeline.active').attr('id').substring(9);
+    idClicked = $(this).attr('id');
 
+    // désactiver la timeline courrante
+    $('#inline-cnt-' + idCurrent).hide();
+    $('#timeline-' + idCurrent).removeClass('active')
+    $('#inline-cnt-' + idCurrent).attr('aria-expanded', 'false')
+        .attr('aria-hidden', 'true');
+
+    //activer le timeline cliqué
+    $('#' + idClicked).addClass('active')
+        .attr('aria-controls', 'inline-cnt-' + idClicked.substring(9))
+        .attr('aria-expanded', 'true');
+    $('#inline-cnt-' + idClicked.substring(9)).show().attr('aria-hidden', 'false');
+    /*$('#inline-cnt-'+idClicked.substring(9)).animate({
+    height: 'toggle'
+    }).attr('aria-hidden','false');*/
+});
 </script>
