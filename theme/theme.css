@@ -151,6 +151,9 @@ body {
   vertical-align: middle;
   float: none; }
 
+#wb-sm .supermenu > li > a.item {
+  padding: 0px 20px 0px 20px; }
+
 #wb-bnr {
   background: #8f6a4d url(images/banner.jpg) right bottom no-repeat; }
   #wb-bnr > div.container {
