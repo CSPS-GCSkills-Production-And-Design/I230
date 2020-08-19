@@ -1,0 +1,5023 @@
+﻿//colors
+$color_leather_approx: #8f6a4d;
+$color_mine_shaft_approx: #333333;
+$color_dove_gray_approx: #666666;
+$color_silver_approx: #ccc;
+$color_danube_approx: #5f9bc2;
+$black: black;
+$white: white;
+$color_gallery_approx: #eee;
+$color_green_pea_approx: #255641;
+$color_blue_approx: #0000ee;
+$color_blumine_approx: #1f5a7f;
+$color_windsor_approx: #3f0968;
+$color_blue_stone_approx: #005a6f;
+$color_saratoga_approx: #616813;
+$color_jacarta_approx: #463371;
+$color_westar_approx: #e8e5e1;
+$color_melrose_approx: #c1a5ff;
+$color_fuchsia_blue_approx: #8368be;
+$color_crete_approx: #716d27;
+$color_gimblet_approx: #beb868;
+$concrete: #f2f2f2;
+$color_alto_approx: #ddd;
+$color_deluge_approx: #7b64b5;
+$color_mischka_approx: #cfcfd1;
+$color_go_ben_approx: #7b7f4a;
+$color_stiletto_approx: #832c2e;
+$color_st_tropaz_approx: #26558b;
+$color_viking_approx: #63b6db;
+$color_golden_sand_approx: #f7d57e;
+$color_snuff_approx: #e3dced;
+$color_pattens_blue_approx: #e1f2fd;
+$color_limed_spruce_approx: #414e57;
+$color_double_pearl_lusta_approx: #fcf7cc;
+$color_boston_blue_approx: #3a8bc2;
+$color_pacifika_approx: #777f24;
+$color_conifer_approx: #99e836;
+$color_earls_green_approx: #becc39;
+$color_citron_approx: #a7b629;
+$color_tana_approx: #d6d9b8;
+$color_eagle_approx: #b4b5a5;
+$color_dolly_approx: #f5ff94;
+$color_whisper_approx: #f3f1f5;
+$color_cold_purple_approx: #afa1db;
+$color_supernova_approx: #fc0;
+$black_10: rgba(0, 0, 0, 0.10);
+$color_totem_pole_approx: #900f08;
+$color_outer_space_approx: #28363c;
+$color_soya_bean_approx: #5e5348;
+$color_silver_chalice_approx: #a5a5a5;
+$color_linen_approx: #fcf7f1;
+$gray: grey;
+$color_san_juan_approx: #304e63;
+$color_white_approx: #fdfdfd;
+$color_ship_gray_approx: #3f364d;
+$color_blue_zodiac_approx: #0c233a;
+$color_tapa_approx: #79736d;
+$color_hint_of_red_approx: #faf5f5;
+$red: red;
+$color_nobel_approx: #b7b7b7;
+$color_mercury_approx: #e1e1e1;
+$color_dorado_approx: #555555;
+$mercury: #e5e5e5;
+$color_tundora_approx: #403a3b;
+$color_blue_bayoux_approx: #3f5b80;
+$color_martini_approx: #999999;
+$color_mariner_approx: #2572b4;
+$black_15: rgba(0, 0, 0, 0.15);
+$color_mystic_approx: #dbe4eb;
+$color_sushi_approx: #77ac3d;
+$color_mexican_red_approx: #a32828;
+$green: #0f0;
+$color_japanese_laurel_approx: #006500;
+$black_11: rgba(0, 0, 0, 0.11);
+$color_mulled_wine_approx: #554768;
+
+//fonts
+$font_0: Gotham Bold;
+$font_1: Gotham Book;
+$font_2: sans-serif;
+$font_3: Myriad Pro;
+$font_4: sans-serifs;
+$font_5: Glyphicons Halflings;
+
+//urls
+$url_0: url("fonts/Gotham/Gotham-Bold.eot");
+$url_1: url("fonts/Gotham/Gotham-Bold.eot?#iefix");
+$url_2: url("fonts/Gotham/Gotham-Bold.woff");
+$url_3: url("fonts/Gotham/Gotham TrueType/Gotham-Bold.ttf");
+$url_4: url("fonts/Gotham/Gotham-Book.eot");
+$url_5: url("fonts/Gotham/Gotham-Book.eot?#iefix");
+$url_6: url("fonts/Gotham/Gotham-Book.woff");
+$url_7: url("fonts/Gotham/Gotham TrueType/Gotham-Book.ttf");
+$url_8: url(images/redfernbanner.jpg);
+$url_9: url(images/banner.jpg);
+$url_10: url(PIE.htc);
+$url_11: url(atip/back_title.jpg);
+$url_12: url(wavy_blue/bg_topbar.jpg);
+$url_13: url(wavy_blue/banner_leftspan.jpg);
+$url_14: url(wavy_blue/banner_rightspan.jpg);
+$url_15: url(images/logo.png);
+$url_16: url(../content/medias/images/bnr_parl.jpg);
+$url_17: url(../content/medias/images/bnr_side_queen.jpg);
+$url_18: url(../content/medias/images/bnr_flags.jpg);
+$url_19: url(images/videoplayer.jpg);
+$url_20: url(wavy_blue/stripes.png);
+$url_21: url(images/ico_pointer.png);
+$url_22: url(images/ico_question.png);
+$url_23: url(images/ico_warning.png);
+$url_24: url(images/did_you_know_icon.png);
+$url_25: url(images/radios.jpg);
+$url_26: url(wavy_blue/bg_menubar.jpg);
+$url_27: url(wavy_blue/bg_menubar_hover.jpg);
+$url_28: url(wavy_blue/bg_dropdown_items.jpg);
+$url_29: url(images/bg_splash.jpg);
+$url_30: url(images/launchBack.jpg);
+$url_31: url(images/bg_arrowsplash.jpg);
+$url_32: url(wavy_blue/bg_titlebar.jpg);
+$url_33: url(images/icon_status.svg);
+$url_34: url(images/btn_branch.png);
+$url_35: url(images/btn_branch_hover.png);
+$url_36: url(images/btn_branch_selected.png);
+$url_37: url(wavy_blue/bg_branch.png);
+$url_38: url(images/bg_balls.png);
+$url_39: url(images/redfernbannerlight.jpg);
+$url_40: url(images/ico_larr_grey.png);
+$url_41: url(images/ico_larr_d.png);
+$url_42: url(images/ico_rarr_d.png);
+$url_43: url(images/ico_rarr_grey.png);
+$url_44: url(../content/medias/images/m4-15_map_spots-01.png);
+$url_45: url(../content/medias/images/m4-15_map_spots-01_hover.png);
+$url_46: url(../content/medias/images/m4-15_map_spots-02.png);
+$url_47: url(../content/medias/images/m4-15_map_spots-02_hover.png);
+$url_48: url(../content/medias/images/m4-15_map_spots-03.png);
+$url_49: url(../content/medias/images/m4-15_map_spots-03_hover.png);
+$url_50: url(../content/medias/images/m4-15_map_spots-04.png);
+$url_51: url(../content/medias/images/m4-15_map_spots-04_hover.png);
+$url_52: url(../content/medias/images/m4-15_map_spots-05.png);
+$url_53: url(../content/medias/images/m4-15_map_spots-05_hover.png);
+$url_54: url(../content/medias/images/m4-15_map_spots-06.png);
+$url_55: url(../content/medias/images/m4-15_map_spots-06_hover.png);
+$url_56: url(../content/medias/images/m4-15_map_spots-07.png);
+$url_57: url(../content/medias/images/m4-15_map_spots-07_hover.png);
+$url_58: url(../content/medias/images/m4-15_map_spots-08.png);
+$url_59: url(../content/medias/images/m4-15_map_spots-08_hover.png);
+$url_60: url(../content/medias/images/m4-15_map_spots-09.png);
+$url_61: url(../content/medias/images/m4-15_map_spots-09_hover.png);
+
+//@extend-elements
+//original selectors
+//a.info:hover, a.info:focus
+%extend_1 {
+	background: none;
+	z-index: 1;
+	cursor: help;
+}
+
+//original selectors
+//a.info:hover span, a.info:focus span
+%extend_2 {
+	display: inline;
+	position: absolute;
+	white-space: nowrap;
+	top: 20px;
+	right: 0;
+	background: $color_blumine_approx;
+	font-size: 0.8em;
+	color: $white;
+	font-weight: 300;
+	padding: 4px;
+	border: 1px solid $color_windsor_approx;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 5px;
+}
+
+
+@import "../scss/_vars";
+@import "../../common/scss/utils/_utils";
+@charset "utf-8";
+@font-face {
+	font-family: $font_0;
+	src: $url_0;
+	src: $url_1 format('opentype'), $url_2 format('woff'), $url_3 format('truetype');
+}
+@font-face {
+	font-family: $font_1;
+	src: $url_4;
+	src: $url_5 format('opentype'), $url_6 format('woff'), $url_7 format('truetype');
+}
+html {
+	&.js {
+		position: relative;
+		min-height: 100%;
+		overflow-y: scroll;
+	}
+	&.smallview #timeline {
+		display: none;
+	}
+	&.xsmallview #timeline {
+		display: none;
+	}
+	&.xxsmallview #timeline {
+		display: none;
+	}
+}
+a {
+	color: $color_blue_approx;
+	&:visited {
+	}
+	&:hover {
+	}
+	&:active {
+	}
+	&.info {
+		position: relative;
+		color: $color_blumine_approx;
+		text-decoration: none;
+		border-bottom: 1px $color_blumine_approx dotted;
+		span {
+			display: none;
+		}
+		&:hover {
+			@extend %extend_1;
+			span {
+				@extend %extend_2;
+			}
+		}
+		&:focus {
+			@extend %extend_1;
+			span {
+				@extend %extend_2;
+			}
+		}
+	}
+	&.next {
+		background-color: none;
+	}
+	&#launch-btn {
+		padding: 5px 10px;
+		text-align: center;
+		border: 1px solid $color_limed_spruce_approx;
+		color: $white;
+		text-decoration: none;
+		background-color: $black;
+		display: inline-block;
+		margin-top: 10px;
+		font-size: 20px;
+		&:hover {
+			padding: 5px 10px;
+			text-align: center;
+			border: 1px solid $color_limed_spruce_approx;
+			background-color: $color_leather_approx;
+			color: $white;
+			text-decoration: none;
+		}
+	}
+	&.internal {
+		&:hover {
+			text-decoration: underline;
+		}
+		&:focus {
+			text-decoration: underline;
+		}
+	}
+	&.viewed:after {
+		color: $color_citron_approx;
+		font-family: $font_5;
+		content: "\e013";
+		color: $color_san_juan_approx;
+		margin-right: 0;
+		position: absolute;
+		right: 5px;
+		top: 3px;
+	}
+}
+body {
+	padding-bottom: 60px;
+	font-family: $font_1, $font_2, $font_3;
+	font-size: 16px;
+}
+.nowrap {
+	white-space: nowrap;
+}
+.vcenter {
+	display: table !important;
+	vertical-align: middle;
+	float: none;
+}
+#wb-bnr {
+	background: $color_leather_approx $url_9 right bottom no-repeat;
+	> div.container {
+		min-height: 138px;
+		> div.row {
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				display: block;
+				right: 100%;
+			}
+			&:after {
+				content: '';
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				display: block;
+				left: 100%;
+			}
+		}
+	}
+}
+@media all and(min-width:1952px) {
+	#wb-bnr {
+		background: $color_leather_approx $url_9 right bottom no-repeat;
+	}
+}
+#wb-info {
+	//Instead of the line below you could use @include box-sizing($bs)
+	box-sizing: border-box;
+	.container {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		background-color: $color_soya_bean_approx;
+		padding: 0 15px;
+	}
+	li {
+		margin-bottom: 0.75em;
+	}
+}
+.logo {
+	position: relative;
+	width: 410px;
+}
+.curieux {
+	font-family: $font_0, $font_4;
+	z-index: 1;
+	position: relative;
+	height: 350px;
+	width: 400px;
+	span {
+		background-color: $color_blue_stone_approx;
+		color: $white;
+		font-family: $font_0, $font_4;
+		font-size: 16px;
+		border: 6px solid $color_blue_stone_approx;
+		position: absolute;
+		font-size: 18px;
+		top: 300px;
+		left: 35px;
+	}
+	a {
+		font-size: 18px;
+		font-family: $font_0, $font_4;
+		text-decoration: none;
+		position: absolute;
+		left: 150px;
+		top: 305px;
+	}
+	img {
+		z-index: 2;
+		float: right;
+	}
+}
+.pratiques {
+	font-family: $font_0, $font_4;
+	z-index: 1;
+	position: relative;
+	height: 350px;
+	width: 400px;
+	span {
+		background-color: $color_blue_stone_approx;
+		color: $white;
+		font-family: $font_0, $font_4;
+		font-size: 16px;
+		border: 6px solid $color_blue_stone_approx;
+		position: absolute;
+		font-size: 18px;
+		top: 300px;
+		left: 35px;
+	}
+	a {
+		font-size: 18px;
+		font-family: $font_0, $font_4;
+		text-decoration: none;
+		position: absolute;
+		left: 150px;
+		top: 305px;
+	}
+	img {
+		z-index: 2;
+		float: right;
+	}
+}
+.boiteoutils {
+	font-family: $font_0, $font_4;
+	z-index: 1;
+	position: relative;
+	height: 350px;
+	width: 400px;
+	span {
+		background-color: $color_blue_stone_approx;
+		color: $white;
+		font-family: $font_0, $font_4;
+		font-size: 16px;
+		border: 6px solid $color_blue_stone_approx;
+		position: absolute;
+		font-size: 18px;
+		top: 300px;
+		left: 35px;
+	}
+	a {
+		font-size: 18px;
+		font-family: $font_0, $font_4;
+		text-decoration: none;
+		position: absolute;
+		left: 150px;
+		top: 305px;
+	}
+	img {
+		z-index: 2;
+		float: right;
+	}
+}
+.menunav {
+	font-family: $font_1, $font_4;
+	z-index: 1;
+	position: relative;
+	width: 450px;
+}
+#menunav1 {
+	position: absolute;
+	margin: 26% 20% 25% 26%;
+	font-size: 16px;
+	color: $white;
+	text-align: center;
+}
+#menunav2 {
+	position: absolute;
+	margin: 76% 37% 12% 22%;
+	font-size: 13px;
+}
+#menunav3 {
+	position: absolute;
+	margin: 62% 5% 25% 51%;
+	font-size: 16px;
+	color: $white;
+	text-align: center;
+}
+#menunav4 {
+	position: absolute;
+	margin: 4% 15% 15% 38%;
+	font-size: 12px;
+}
+.cyclevie {
+	font-family: $font_0, $font_4;
+	z-index: 1;
+	position: relative;
+	width: 450px;
+}
+.cyclegestion {
+	font-family: $font_0, $font_4;
+	z-index: 1;
+	position: relative;
+	width: 450px;
+}
+#cycle1 {
+	position: absolute;
+	margin: 16% 20% 25% 34%;
+	font-size: 13px;
+}
+#cycle2 {
+	position: absolute;
+	margin: 37% 15% 35% 68%;
+	font-size: 13px;
+}
+#cycle3 {
+	position: absolute;
+	margin: 61% 5% 25% 66%;
+	font-size: 13px;
+}
+#cycle4 {
+	position: absolute;
+	margin: 81% 25% 25% 42%;
+	font-size: 13px;
+}
+#cycle5 {
+	position: absolute;
+	margin: 61% 25% 25% 13%;
+	font-size: 13px;
+}
+#cycle6 {
+	position: absolute;
+	margin: 37% 35% 35% 16%;
+	font-size: 13px;
+}
+#cycle7 {
+	position: absolute;
+	margin: 13% 20% 25% 30.5%;
+	font-size: 13px;
+}
+#cycle8 {
+	position: absolute;
+	margin: 34.5% 2% 2% 62%;
+	font-size: 13px;
+	text-align: center;
+}
+#cycle9 {
+	position: absolute;
+	margin: 62% 2% 3% 69%;
+	font-size: 13px;
+}
+#cycle10 {
+	position: absolute;
+	margin: 85% 25% 25% 32%;
+	font-size: 13px;
+}
+#cycle11 {
+	position: absolute;
+	margin: 62% 25% 25% 4%;
+	font-size: 13px;
+}
+#cycle12 {
+	position: absolute;
+	margin: 36% 35% 35% 14%;
+	font-size: 13px;
+}
+.mesureRendement {
+	font-family: $font_0, $font_4;
+	z-index: 1;
+	position: relative;
+	width: 1000px;
+}
+#mesureRendement1 {
+	position: absolute;
+	margin: 5% 3% 1% 6%;
+	font-size: 15px;
+	text-align: center;
+}
+#mesureRendement2 {
+	position: absolute;
+	margin: 14% 2% 2% 19%;
+	font-size: 15px;
+	text-align: center;
+}
+#mesureRendement3 {
+	position: absolute;
+	margin: 22.5% 2% 2% 19%;
+	font-size: 15px;
+	text-align: center;
+}
+#mesureRendement4 {
+	position: absolute;
+	margin: 31% 2% 2% 19%;
+	font-size: 15px;
+}
+#mesureRendement5 {
+	position: absolute;
+	margin: 41% 5% 5% 16%;
+	font-size: 15px;
+	text-align: center;
+}
+#mesureRendement6 {
+	position: absolute;
+	margin: 22.5% 1% 1% 47%;
+	font-size: 15px;
+}
+#mesureRendement7 {
+	position: absolute;
+	margin: 31% 1% 1% 47%;
+	font-size: 15px;
+}
+#mesureRendement8 {
+	position: absolute;
+	margin: 39.5% 1% 1% 47%;
+	font-size: 15px;
+	text-align: center;
+}
+#mesureRendement9 {
+	position: absolute;
+	margin: 9% 0 0 74%;
+	font-size: 15px;
+	text-align: center;
+}
+#mesureRendement10 {
+	position: absolute;
+	margin: 22.5% 5% 5% 83%;
+	font-size: 15px;
+	text-align: center;
+}
+#mesureRendement11 {
+	position: absolute;
+	margin: 31% 5% 5% 83%;
+	font-size: 15px;
+	text-align: center;
+}
+#mesureRendement12 {
+	position: absolute;
+	margin: 39.5% 5% 5% 83%;
+	font-size: 15px;
+	text-align: center;
+}
+.modelegestion {
+	font-family: $font_0, $font_4;
+	z-index: 1;
+	position: relative;
+	width: 450px;
+}
+#modelegestion1 {
+	position: absolute;
+	margin: 18% 23% 1% 26%;
+	font-size: 13px;
+	text-align: center;
+}
+#modelegestion2 {
+	position: absolute;
+	margin: 42% 2% 2% 62%;
+	font-size: 13px;
+	text-align: center;
+}
+#modelegestion3 {
+	position: absolute;
+	margin: 68% 1% 1% 64%;
+	font-size: 13px;
+	text-align: center;
+}
+#modelegestion4 {
+	position: absolute;
+	margin: 92% 25% 25% 31%;
+	font-size: 13px;
+}
+#modelegestion5 {
+	position: absolute;
+	margin: 70% 25% 25% 9%;
+	font-size: 13px;
+	text-align: center;
+}
+#modelegestion6 {
+	position: absolute;
+	margin: 44% 35% 35% 12%;
+	font-size: 13px;
+}
+#modelegestion7 {
+	position: absolute;
+	margin: 5% 35% 35% 45%;
+	font-size: 13px;
+}
+#modelegestion8 {
+	position: absolute;
+	margin: 55% 35% 35% 39%;
+	font-size: 13px;
+	text-align: center;
+}
+.architectureProg {
+	font-family: $font_0, $font_4;
+	z-index: 1;
+	position: relative;
+	width: 987px;
+}
+#architectureProg0 {
+	position: absolute;
+	margin: 60px 0 0;
+	width: 100px;
+}
+#architectureProg1 {
+	position: absolute;
+	margin: 165px 0 0;
+	width: 100px;
+}
+#architectureProg2 {
+	position: absolute;
+	margin: 290px 0 0;
+	width: 130px;
+}
+#architectureProg3 {
+	position: absolute;
+	margin: 40px 0 0 412px;
+}
+#architectureProg4 {
+	position: absolute;
+	margin: 154px 0 0 244px;
+}
+#architectureProg5 {
+	position: absolute;
+	margin: 154px 0 0 456px;
+}
+#architectureProg6 {
+	position: absolute;
+	margin: 154px 0 0 662px;
+}
+#architectureProg7 {
+	position: absolute;
+	margin: 275px 0 0 315px;
+}
+#architectureProg8 {
+	position: absolute;
+	margin: 275px 0 0 542px;
+}
+#architectureProg9 {
+	position: absolute;
+	margin: 385px 0 0 200px;
+}
+#architectureProg10 {
+	position: absolute;
+	margin: 385px 0 0 408px;
+}
+#architectureProg11 {
+	position: absolute;
+	margin: 385px 0 0 616px;
+}
+#architectureProg12 {
+	position: absolute;
+	margin: 12px 0 0 880px;
+}
+#architectureProg13 {
+	position: absolute;
+	margin: 214px 0 0 880px;
+}
+.opacity0 {
+	opacity: 0;
+}
+.chart {
+	a {
+		width: 260px;
+		height: 80px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		border: thin solid $color_silver_approx;
+		font-weight: 200;
+		font-size: 14px;
+		display: table-cell;
+		vertical-align: middle;
+		+ * {
+			width: 260px;
+			height: 80px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 20px;
+			border: thin solid $color_silver_approx;
+			font-weight: 200;
+			font-size: 14px;
+			display: table-cell;
+			vertical-align: middle;
+		}
+		&:hover {
+			color: $white;
+			border: none;
+			text-decoration: none;
+		}
+	}
+	span {
+		width: 260px;
+		height: 80px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		border: thin solid $color_silver_approx;
+		font-weight: 200;
+		font-size: 14px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+.chart1 {
+	a {
+		height: 89px;
+		min-width: 260px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 300;
+		color: $black;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		+ * {
+			height: 89px;
+			min-width: 260px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 20px;
+			font-weight: 300;
+			color: $black;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+		&:hover {
+			border: none;
+			text-decoration: none;
+		}
+		&:visited {
+			border: none;
+			text-decoration: none;
+		}
+	}
+	span {
+		height: 89px;
+		min-width: 260px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 300;
+		color: $black;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+}
+.chart-container {
+	min-width: 615px;
+}
+.chart2-container {
+	min-width: 615px;
+}
+.chart3-container {
+	min-width: 615px;
+}
+.chart4-container {
+	min-width: 615px;
+}
+.chart5-container {
+	min-width: 615px;
+}
+.chart6-container {
+	min-width: 615px;
+}
+.chart7-container {
+	min-width: 615px;
+}
+.chart8-container {
+	min-width: 615px;
+}
+.chart10-container {
+	min-width: 615px;
+	font-size: 12px;
+}
+.chart12-container {
+	min-width: 615px;
+}
+.chart11-container {
+	min-width: 915px;
+	h3 {
+		margin-top: 0;
+		color: $color_saratoga_approx;
+	}
+	h4 {
+		font-family: $font_0;
+	}
+}
+.chart14-container {
+	min-width: 995px;
+	font-size: 12px;
+}
+.chart15-container {
+	min-width: 995px;
+	font-size: 12px;
+}
+.legende {
+	min-width: 430px;
+}
+.chart2 {
+	a {
+		width: 360px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		display: table-cell;
+		vertical-align: middle;
+		+ * {
+			width: 360px;
+			height: 89px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 20px;
+			font-weight: 200;
+			display: table-cell;
+			vertical-align: middle;
+		}
+		&:hover {
+			color: $white;
+			border: none;
+			text-decoration: none;
+		}
+	}
+	p {
+		width: 360px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+.chart5Titles {
+	a {
+		width: 360px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		display: table-cell;
+		vertical-align: middle;
+		+ * {
+			width: 360px;
+			height: 89px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 20px;
+			font-weight: 200;
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+	span {
+		width: 360px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+.chart6 {
+	a {
+		width: 360px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		display: table-cell;
+		vertical-align: middle;
+		+ * {
+			width: 360px;
+			height: 89px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 20px;
+			font-weight: 200;
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+	span {
+		width: 360px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+.chart3 {
+	a {
+		width: 260px;
+		min-width: 80px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		+ * {
+			width: 260px;
+			min-width: 80px;
+			height: 89px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 20px;
+			font-weight: 200;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+	}
+	span {
+		width: 260px;
+		min-width: 80px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		.glyphicon.glyphicon-star {
+			width: 20px;
+			max-width: 20px;
+		}
+	}
+	p {
+		width: 260px;
+		min-width: 80px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+}
+.chart4 {
+	span {
+		width: 260px;
+		min-width: 80px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+	p {
+		width: 260px;
+		min-width: 80px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+}
+.chart5 {
+	a {
+		width: 260px;
+		min-width: 80px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		+ * {
+			width: 260px;
+			min-width: 80px;
+			height: 89px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 20px;
+			font-weight: 200;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+	}
+	span {
+		width: 260px;
+		min-width: 80px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+}
+.chart12 {
+	a {
+		width: 260px;
+		min-width: 80px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		+ * {
+			width: 260px;
+			min-width: 80px;
+			height: 89px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 20px;
+			font-weight: 200;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+	}
+	span {
+		width: 260px;
+		min-width: 80px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+}
+.chart7 {
+	a {
+		width: 400px;
+		min-width: 360px;
+		height: 70px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		padding: 10px;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		+ * {
+			width: 400px;
+			min-width: 360px;
+			height: 70px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 20px;
+			font-weight: 200;
+			padding: 10px;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+	}
+	span {
+		width: 400px;
+		min-width: 360px;
+		height: 70px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		padding: 10px;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+	p {
+		width: 400px;
+		min-width: 360px;
+		height: 70px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		padding: 10px;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+}
+.chart8 {
+	a {
+		width: 400px;
+		min-width: 360px;
+		height: 70px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		padding: 10px;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		+ * {
+			width: 400px;
+			min-width: 360px;
+			height: 70px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 20px;
+			font-weight: 200;
+			padding: 10px;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+	}
+	span {
+		width: 400px;
+		min-width: 360px;
+		height: 70px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		padding: 10px;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+	p {
+		width: 400px;
+		min-width: 360px;
+		height: 70px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		padding: 10px;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+}
+.chart11 {
+	a {
+		width: 400px;
+		min-width: 360px;
+		height: 70px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		padding: 10px;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		+ * {
+			width: 400px;
+			min-width: 360px;
+			height: 70px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 20px;
+			font-weight: 200;
+			padding: 10px;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+	}
+	span {
+		width: 400px;
+		min-width: 360px;
+		height: 70px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		padding: 10px;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+}
+.chart9 {
+	a {
+		width: 850px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px 5px 20px 5px;
+		font-weight: 200;
+		font-size: 14px;
+		display: table-cell;
+		vertical-align: middle;
+		+ * {
+			width: 850px;
+			height: 89px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 20px 5px 20px 5px;
+			font-weight: 200;
+			font-size: 14px;
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+	span {
+		width: 850px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px 5px 20px 5px;
+		font-weight: 200;
+		font-size: 14px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	p {
+		width: 850px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px 5px 20px 5px;
+		font-weight: 200;
+		font-size: 14px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+.chart13 {
+	a {
+		width: 850px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		font-size: 14px;
+		display: table-cell;
+		vertical-align: middle;
+		+ * {
+			width: 850px;
+			height: 89px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 20px;
+			font-weight: 200;
+			font-size: 14px;
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+	span {
+		width: 850px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		font-size: 14px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	p {
+		width: 850px;
+		height: 89px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 20px;
+		font-weight: 200;
+		font-size: 14px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+.arrow_box {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 5px;
+	position: relative;
+	background: $color_jacarta_approx;
+	border: 2px solid $color_westar_approx;
+	color: $white;
+	z-index: -1;
+	h5 {
+		margin-top: 10px !important;
+	}
+	&:after {
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(92, 79, 143, 0);
+		border-top-color: $color_jacarta_approx;
+		border-width: 30px;
+		margin-left: -30px;
+	}
+	&:before {
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(232, 229, 225, 0);
+		border-top-color: $color_westar_approx;
+		border-width: 33px;
+		margin-left: -33px;
+		z-index: 4;
+	}
+}
+.arrow_box1 {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 5px;
+	position: relative;
+	background: $color_melrose_approx;
+	border: 2px solid $color_westar_approx;
+	color: $black;
+	z-index: -1;
+	h5 {
+		margin-top: 10px !important;
+	}
+	&:after {
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(92, 79, 143, 0);
+		border-top-color: $color_melrose_approx;
+		border-width: 30px;
+		margin-left: -30px;
+	}
+	&:before {
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(232, 229, 225, 0);
+		border-top-color: $color_westar_approx;
+		border-width: 33px;
+		margin-left: -33px;
+		z-index: 4;
+	}
+}
+.arrow_box2 {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 5px;
+	position: relative;
+	background: $color_fuchsia_blue_approx;
+	border: 2px solid $color_westar_approx;
+	color: $white;
+	z-index: -1;
+	h5 {
+		margin-top: 10px !important;
+	}
+	&:after {
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(92, 79, 143, 0);
+		border-top-color: $color_fuchsia_blue_approx;
+		border-width: 30px;
+		margin-left: -30px;
+	}
+	&:before {
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(232, 229, 225, 0);
+		border-top-color: $color_westar_approx;
+		border-width: 33px;
+		margin-left: -33px;
+		z-index: 4;
+	}
+}
+.arrow_box3 {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 5px;
+	position: relative;
+	background: $color_crete_approx;
+	border: 2px solid $color_westar_approx;
+	color: $white;
+	z-index: -1;
+	h5 {
+		margin-top: 10px !important;
+	}
+	&:after {
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(92, 79, 143, 0);
+		border-top-color: $color_crete_approx;
+		border-width: 30px;
+		margin-left: -30px;
+	}
+	&:before {
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(232, 229, 225, 0);
+		border-top-color: $color_westar_approx;
+		border-width: 33px;
+		margin-left: -33px;
+		z-index: 4;
+	}
+}
+.arrow_box4 {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 5px;
+	position: relative;
+	background: $color_gimblet_approx;
+	border: 2px solid $color_westar_approx;
+	color: $black;
+	z-index: -1;
+	h5 {
+		margin-top: 10px !important;
+	}
+	&:after {
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(92, 79, 143, 0);
+		border-top-color: $color_gimblet_approx;
+		border-width: 30px;
+		margin-left: -30px;
+	}
+	&:before {
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(232, 229, 225, 0);
+		border-top-color: $color_westar_approx;
+		border-width: 33px;
+		margin-left: -33px;
+		z-index: 4;
+	}
+}
+.down-arrow1 {
+	display: inline-block;
+	position: relative;
+	height: 70px;
+	font-weight: 200;
+	text-align: left;
+	display: table-cell;
+	vertical-align: middle;
+	background: $color_jacarta_approx;
+	width: 300px;
+	color: $white;
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: -35px;
+		width: 0;
+		height: 0;
+		border-left: 35px solid transparent;
+	}
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 100%;
+		height: 0;
+		border-style: solid;
+		border-width: 35px;
+		border-color: transparent transparent transparent $color_jacarta_approx;
+	}
+}
+.down-arrow1s2 {
+	display: inline-block;
+	position: relative;
+	height: 70px;
+	font-weight: 200;
+	text-align: left;
+	display: table-cell;
+	vertical-align: middle;
+	background: $color_jacarta_approx;
+	width: 400px;
+	color: $white;
+	font-size: 13px;
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: -35px;
+		width: 0;
+		height: 0;
+		border-left: 35px solid transparent;
+	}
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 100%;
+		height: 0;
+		border-style: solid;
+		border-width: 35px;
+		border-color: transparent transparent transparent $color_jacarta_approx;
+	}
+}
+.down-arrow2 {
+	display: inline-block;
+	position: relative;
+	height: 70px;
+	font-weight: 200;
+	text-align: left;
+	display: table-cell;
+	vertical-align: middle;
+	background: $color_crete_approx;
+	width: 400px;
+	color: $white;
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: -35px;
+		width: 0;
+		height: 0;
+		border-left: 35px solid transparent;
+		border-top: 35px solid $color_crete_approx;
+		border-bottom: 35px solid $color_crete_approx;
+	}
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 100%;
+		height: 0;
+		border-style: solid;
+		border-width: 35px;
+		border-color: transparent transparent transparent $color_crete_approx;
+	}
+}
+.down-arrow3 {
+	display: inline-block;
+	position: relative;
+	height: 70px;
+	font-weight: 200;
+	text-align: left;
+	display: table-cell;
+	vertical-align: middle;
+	background: $color_gimblet_approx;
+	width: 400px;
+	color: $black;
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: -35px;
+		width: 0;
+		height: 0;
+		border-left: 35px solid transparent;
+		border-top: 35px solid $color_gimblet_approx;
+		border-bottom: 35px solid $color_gimblet_approx;
+	}
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 100%;
+		height: 0;
+		border-style: solid;
+		border-width: 35px;
+		border-color: transparent transparent transparent $color_gimblet_approx;
+	}
+}
+.down-arrow4 {
+	display: inline-block;
+	position: relative;
+	height: 70px;
+	font-weight: 200;
+	text-align: left;
+	display: table-cell;
+	vertical-align: middle;
+	background: $color_gimblet_approx;
+	height: 150px;
+	color: $black;
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: -35px;
+		width: 0;
+		height: 0;
+		border-left: 35px solid transparent;
+		border-top: 75px solid $color_gimblet_approx;
+		border-bottom: 75px solid $color_gimblet_approx;
+	}
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 100%;
+		height: 0;
+		border-style: solid;
+		border-width: 35px;
+		border-color: transparent transparent transparent $color_gimblet_approx;
+		border-width: 75px;
+	}
+}
+.underline {
+	text-decoration: underline;
+}
+.NOunderline {
+	text-decoration: none;
+}
+.border {
+	border: 1px solid $color_silver_approx;
+	background: $concrete;
+}
+.borderPurple {
+	border: 1px solid $color_alto_approx;
+}
+.border-up-right {
+	height: 50px;
+	border-right: 1px solid $color_silver_approx;
+}
+.border-up-left {
+	height: 50px;
+	border-left: 1px solid $color_silver_approx;
+}
+.border-up-leftS2 {
+	height: 120px;
+	border-left: 3px solid $color_silver_approx;
+}
+.border-up-leftS3 {
+	height: 70px;
+	border-left: 10px solid $color_deluge_approx;
+	opacity: 0.4;
+}
+.border-bttm {
+	border-bottom: 2px solid $color_silver_approx !important;
+}
+.border-bttm1 {
+	border-bottom: 1px solid $color_silver_approx !important;
+}
+.border-bttmS2 {
+	border-bottom: 3px solid $color_silver_approx !important;
+}
+.border-bttmS3 {
+	opacity: 0.4;
+	border-bottom: 10px solid $color_deluge_approx !important;
+}
+.ln-hgt-md {
+	line-height: 50% !important;
+}
+.mrg-xs {
+	margin: 10px;
+}
+.mrg-sm {
+	margin: 20px;
+}
+.mrg-md {
+	margin: 60px;
+}
+.mrg-lg {
+	margin: 70px;
+}
+.mrg-xl {
+	margin: 80px;
+}
+.mrg-bt-xxl {
+	margin-bottom: 80px;
+}
+.mrg-tp-xxl {
+	margin-top: 100px;
+}
+.mrg-lft-xs {
+	margin-left: 20px !important;
+}
+.mrg-lft-sm {
+	margin-left: 70px !important;
+}
+.mrg-lft-md {
+	margin-left: 80px;
+}
+.mrg-lft-lg {
+	margin-left: 100px;
+}
+.mrg-lft-xl {
+	margin-left: 150px;
+}
+.mrg-lft-xxl {
+	margin-left: 360px;
+}
+.padd-xs {
+	padding: 10px;
+}
+.padd-sm {
+	padding: 30px;
+}
+.padd-md {
+	padding: 60px;
+}
+.padd-lg {
+	padding: 70px;
+}
+.padd-xl {
+	padding: 80px;
+}
+.padd-xxl {
+	padding: 90px;
+}
+.padd-bt-xs {
+	padding-bottom: 10px;
+}
+.padd-bt-sm {
+	padding-bottom: 30px;
+}
+.padd-bt-md {
+	padding-bottom: 60px;
+}
+.padd-bt-lg {
+	padding-bottom: 70px;
+}
+.padd-bt-xl {
+	padding-bottom: 80px;
+}
+.padd-bt-xxl {
+	padding-bottom: 90px;
+}
+.padd-tp-xs {
+	padding-top: 10px;
+}
+.padd-tp-sm {
+	padding-top: 30px;
+}
+.padd-tp-md {
+	padding-top: 60px;
+}
+.padd-tp-lg {
+	padding-top: 70px;
+}
+.padd-tp-xl {
+	padding-top: 80px;
+}
+.padd-tp-xxl {
+	padding-top: 90px;
+}
+.padd-lft-0 {
+	padding-left: 0;
+}
+.padd-lft-xs {
+	padding-left: 10px;
+}
+.padd-lft-sm {
+	padding-left: 30px;
+}
+.padd-lft-md {
+	padding-left: 60px;
+}
+.padd-lft-lg {
+	padding-left: 70px;
+}
+.padd-lft-xl {
+	padding-left: 80px;
+}
+.padd-lft-xxl {
+	padding-left: 90px;
+}
+.padd-rgt-0 {
+	padding-right: 0;
+}
+.padd-rgt-xs {
+	padding-right: 10px;
+}
+.padd-rgt-sm {
+	padding-right: 30px;
+}
+.padd-rgt-md {
+	padding-right: 60px;
+}
+.padd-rgt-lg {
+	padding-right: 70px;
+}
+.padd-rgt-xl {
+	padding-right: 80px;
+}
+.padd-rgt-xxl {
+	padding-right: 90px;
+}
+.hgt-xs {
+	height: 50px;
+}
+.hgt-sm {
+	font-size: 30px;
+}
+.hgt-md {
+	height: 70px;
+}
+.hgt-lg {
+	height: 90px;
+}
+.l-hght-xs {
+	line-height: 2.5;
+}
+.m6-2-3 {
+	> glyphicon.glyphicon-arrow-down {
+		font-size: 25px;
+		color: $color_windsor_approx;
+	}
+	> .glyphicon.glyphicon-triangle-right {
+		font-size: 25px;
+		color: $color_windsor_approx;
+	}
+}
+.m11-2-7 {
+	font-size: 35px;
+	color: $color_windsor_approx;
+}
+.calendrierContainer {
+	border: 1px solid $color_go_ben_approx;
+	padding: 15px;
+	width: 90%;
+	font-size: 14px;
+}
+.calendrier {
+	color: $color_go_ben_approx;
+	border-bottom: 5px solid $color_go_ben_approx;
+}
+h5 {
+	font-size: 16px;
+	&.when {
+		margin-bottom: 8px;
+		margin-top: 0;
+		line-height: 0;
+		font-family: $font_0, $font_2, $font_3;
+	}
+	&.note {
+		margin-bottom: 8px;
+		margin-top: 0;
+		line-height: 0;
+		font-family: $font_0, $font_2, $font_3;
+	}
+}
+.contexte {
+	color: $white;
+	min-width: 305px;
+	dl {
+		position: relative;
+	}
+	dd {
+		background-color: $color_westar_approx;
+		padding: 10px;
+		color: $black;
+	}
+	dt {
+		padding: 15px;
+		font-size: 14px;
+		position: absolute;
+		top: 0;
+		left: 20%;
+		font-size: 14px;
+	}
+	> div {
+		padding: 15px;
+		font-size: 14px;
+		padding: 15px;
+	}
+}
+.contexte2 {
+	color: $white;
+	dd {
+		background-color: $color_westar_approx;
+		padding: 10px;
+		color: $black;
+	}
+	dt {
+		padding: 15px;
+		font-size: 16px;
+	}
+}
+td {
+	padding: 1%;
+}
+thead {
+	vertical-align: middle;
+	&.m11-2-14 {
+		vertical-align: top !important;
+	}
+}
+.rotate-30 {
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: rotate(30deg);
+}
+.rotate30 {
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: rotate(-30deg);
+}
+.rotate50 {
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: rotate(50deg);
+}
+.rotate70 {
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: rotate(70deg);
+}
+.rotate90 {
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: rotate(90deg);
+}
+.redF {
+	color: $color_stiletto_approx;
+}
+.blueF {
+	color: $color_st_tropaz_approx;
+}
+.blue_lightF {
+	color: $color_viking_approx;
+}
+.greenF {
+	color: $color_go_ben_approx;
+}
+.black {
+	color: $black;
+}
+.whiteF {
+	color: $white;
+}
+.yellowF {
+	color: $color_golden_sand_approx;
+}
+.purpleF {
+	color: $color_deluge_approx;
+}
+.purple {
+	background: $color_snuff_approx;
+	border: 1px solid $color_deluge_approx;
+	color: $black;
+}
+.purpleBack {
+	background: $color_snuff_approx;
+	color: $black;
+}
+.purpleTitles {
+	background: $color_pattens_blue_approx;
+	border: 1px solid $color_limed_spruce_approx;
+	color: $black;
+}
+.white {
+	background: $white;
+}
+.grey {
+	background: $color_silver_approx;
+	border: 1px solid $white;
+}
+.yellowOUT {
+	background: $color_double_pearl_lusta_approx;
+}
+.blue {
+	color: $white;
+	background: $color_st_tropaz_approx;
+}
+.blue_medium {
+	background: $color_boston_blue_approx;
+	color: $white;
+}
+.blue_light {
+	background: $color_viking_approx;
+	color: $white;
+}
+.green {
+	background: $color_go_ben_approx;
+	color: $black;
+	border: 1px solid $color_saratoga_approx;
+}
+.green_medium {
+	background: $color_pacifika_approx;
+	color: $black;
+	border: 1px solid $color_conifer_approx;
+}
+.green_light {
+	background: $color_earls_green_approx;
+	color: $black;
+	border: 1px solid $color_citron_approx;
+}
+.green_xlight {
+	background: $color_tana_approx;
+	color: $black;
+	border: 1px solid $color_eagle_approx;
+}
+.green_xxlight {
+	background: $color_dolly_approx;
+	color: $black;
+	border: 1px solid $color_citron_approx;
+}
+.purpleC4 {
+	background: $color_whisper_approx;
+	color: $black;
+}
+.purpleC {
+	background: $color_deluge_approx;
+	color: $black;
+}
+.purpleC1 {
+	background: $color_fuchsia_blue_approx;
+	color: $black;
+}
+.purpleC3 {
+	background: $color_snuff_approx;
+	color: $black;
+}
+.purpleC2 {
+	background: $color_cold_purple_approx;
+	color: $black;
+}
+.purpleB1 {
+	border: 2px solid $color_jacarta_approx;
+	color: $black;
+}
+.purpleB2 {
+	border: 2px solid $color_melrose_approx;
+	color: $black;
+}
+.purpleB3 {
+	border: 2px solid $color_fuchsia_blue_approx;
+	color: $black;
+}
+.greenB1 {
+	border: 2px solid $color_crete_approx;
+	color: $black;
+}
+.greenB2 {
+	border: 2px solid $color_gimblet_approx;
+	color: $black;
+}
+.yellow {
+	color: $black;
+	background: $color_golden_sand_approx;
+	border: 1px solid $color_supernova_approx;
+}
+.red {
+	color: $white;
+	background: $color_stiletto_approx;
+}
+.radius {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px 10px 10px 10px;
+	border: 0 solid $black;
+}
+.shadow {
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 14px 11px 12px -8px $black_10;
+	filter: progid:dximagetransform.microsoft.shadow(color=$color_silver_approx, strength=4, direction=0), progid:dximagetransform.microsoft.shadow(color=$color_silver_approx, strength=3, direction=90), progid:dximagetransform.microsoft.shadow(color=$color_silver_approx, strength=4, direction=180), progid:dximagetransform.microsoft.shadow(color=$color_silver_approx, strength=3, direction=270);
+}
+.numberCircle {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 50%;
+	behavior: $url_10;
+	width: 36px;
+	height: 36px;
+	padding: 6px;
+	background: $white;
+	border: 2px solid $color_dove_gray_approx;
+	color: $color_dove_gray_approx;
+	text-align: center;
+}
+div {
+	&.infos {
+		visibility: hidden;
+	}
+	&.banner {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	&.encadrage {
+		padding: 0;
+		margin: 0;
+		border: 1px solid $color_silver_chalice_approx;
+		margin-bottom: 30px;
+		background-color: $color_linen_approx;
+		> p {
+			margin: 10px 10px 10px 30px;
+			font-size: 16px !important;
+			&.radiobuttonfake {
+				background: $url_25 no-repeat;
+				width: 397px;
+				height: 210px;
+				margin-left: 25px;
+			}
+		}
+		> ul {
+			margin: 10px 10px 10px 30px;
+			font-size: 16px !important;
+		}
+		span.icon {
+			width: 39px;
+			height: 39px;
+			display: inline-block;
+			float: left;
+			margin: 10px;
+			&.pointer {
+				background: $gray $url_21;
+			}
+			&.question {
+				background: $gray $url_22;
+			}
+			&.warning {
+				background: $gray $url_23;
+			}
+			&.lightbulb {
+				background: transparent $url_24;
+				background-repeat: no-repeat;
+				margin: 6px 10px;
+			}
+		}
+	}
+	&.branches a {
+		background: $url_34 no-repeat;
+		width: 30%;
+		height: auto;
+		min-height: 111px;
+		background-size: 100% auto;
+		text-align: center;
+		text-decoration: none;
+		color: $white;
+		display: inline-block;
+		margin-left: 3px;
+		margin-right: 6px;
+		padding-top: 30px;
+		&.selected {
+			background: $url_34 no-repeat;
+			width: 30%;
+			height: auto;
+			min-height: 111px;
+			background-size: 100% auto;
+			text-align: center;
+			text-decoration: none;
+			color: $white;
+			display: inline-block;
+			margin-left: 3px;
+			margin-right: 6px;
+			padding-top: 30px;
+			background: $url_36 no-repeat;
+			background-size: 100% auto;
+		}
+		&:focus {
+			background: $url_35 no-repeat;
+			background-size: 100% auto;
+		}
+		&:hover {
+			background: $url_35 no-repeat;
+			background-size: 100% auto;
+		}
+	}
+	&.modal-body #info-pnl h3 {
+		color: $color_mine_shaft_approx;
+	}
+}
+#wb-bar {
+	height: 50px;
+	padding-top: 20px;
+	vertical-align: bottom;
+	z-index: 1;
+	> .container > .row {
+		color: $white;
+	}
+	> div > div a {
+		text-decoration: none;
+		font-family: $font_0, $font_2, $font_3;
+		&:visited {
+			text-decoration: none;
+			font-family: $font_0, $font_2, $font_3;
+		}
+		&:hover {
+		}
+		&:active {
+			color: $color_saratoga_approx;
+		}
+	}
+	ul.text-right > li > a {
+		color: $color_totem_pole_approx;
+	}
+}
+#mb-pnl {
+	.lng-ofr {
+		height: 50px;
+		padding-top: 20px;
+		vertical-align: bottom;
+		z-index: 1;
+		font-family: $font_0, $font_2, $font_3;
+		color: $white;
+		min-width: 200px;
+		height: 43px;
+		padding: 7px 35px 0 15px;
+		text-align: left;
+		cursor: pointer;
+		border-right: 1px solid $white;
+		height: auto;
+		padding-top: 0;
+		background: $color_linen_approx;
+		h3 {
+			background: $color_soya_bean_approx !important;
+		}
+	}
+	.sm-pnl {
+		background-color: $color_gallery_approx;
+		color: $color_mine_shaft_approx;
+	}
+	&.modal-content {
+		background: $white;
+	}
+	.modal-body {
+		padding: 0;
+	}
+	summary {
+		&:hover {
+			background: transparent;
+		}
+		&:focus {
+			background: transparent;
+		}
+	}
+	a {
+		text-decoration: none;
+		&:hover {
+		}
+	}
+	ul.list-inline > li > a {
+		color: $color_mine_shaft_approx;
+		&:hover {
+			border: none;
+			text-decoration: none;
+		}
+	}
+}
+ul {
+	&.tb-container {
+		a {
+			display: block;
+			padding: 4px 10px;
+			color: $color_mine_shaft_approx;
+			text-decoration: none;
+			border-top: 1px solid $color_silver_approx;
+		}
+		li:first-child a {
+			border: 0;
+		}
+		.li a {
+			&:hover {
+			}
+			&:active {
+			}
+		}
+	}
+	&.pnl-btn > li > a {
+		background-position: -183px 0 !important;
+		&:hover {
+			background-position: -183px -33px !important;
+		}
+		&:focus {
+			background-position: -183px -33px !important;
+		}
+	}
+}
+span {
+	&.glyphicon-chevron-down {
+		margin-top: 4px;
+		float: right;
+		margin-right: -22px;
+	}
+	&.credits {
+		font-size: 0.6em;
+	}
+	&.circle {
+		display: inline-block;
+	}
+	&.wb-inv {
+		color: $black;
+		background: $white;
+	}
+}
+#wb-lng {
+	ul {
+		font-family: $font_1, $font_2, $font_3;
+		font-size: 12px;
+		float: right;
+		line-height: 1;
+		a {
+		}
+		&.tb-container {
+			position: absolute;
+			text-align: right;
+			width: 160px;
+			background-color: $color_hint_of_red_approx;
+			color: $red;
+			margin-left: -83px;
+			margin-top: 5px;
+			z-index: 100;
+			border: 1px solid $color_silver_approx;
+			a:hover {
+				background-color: $color_outer_space_approx;
+				border-bottom: none;
+				color: $white;
+			}
+		}
+		li:first-child {
+		}
+	}
+	.btn-group {
+		float: right;
+		margin: 5px 0;
+		text-align: right;
+	}
+	.curr {
+		display: block;
+	}
+	> ul > li {
+		list-style-type: none;
+		float: left;
+		padding: 0 12px;
+		&:first-child {
+			border-left: none;
+		}
+	}
+}
+h4 {
+	font-size: 18px;
+	&:first-of-type {
+		margin-top: 0 !important;
+	}
+}
+#wb-sttl {
+	span {
+		display: table-cell;
+		vertical-align: middle;
+		height: 165px;
+		display: block;
+		height: auto;
+		&.subtitle {
+			font-size: 2.5rem;
+			font-family: $font_1, $font_2, $font_3;
+		}
+	}
+	a {
+		width: 55%;
+		display: block;
+		font-family: $font_0, $font_2, $font_3;
+		color: $color_outer_space_approx;
+		font-size: 2em;
+		font-weight: bold;
+		line-height: normal;
+		text-decoration: none;
+	}
+	small {
+		display: block;
+		font-size: 0.4em;
+		margin-bottom: 4px;
+	}
+	object {
+		pointer-events: none;
+		float: left;
+	}
+	img {
+		float: left;
+	}
+}
+@media screen and(max-width: 990px) {
+	#wb-sttl a {
+		color: $color_mine_shaft_approx;
+	}
+}
+[dir=rtl] {
+	#wb-glb-mn {
+		> ul {
+		}
+		.pnl-btn {
+			text-align: left;
+			span .glyphicon-th-list {
+			}
+		}
+	}
+	#wb-sttl {
+		object {
+		}
+		img {
+		}
+	}
+	#wb-lng > ul {
+	}
+}
+footer {
+	&#wb-info {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 60px;
+	}
+	.backnext.disabled {
+		color: $black;
+		background-color: $white;
+		padding: 11px 20px;
+		text-decoration: none;
+	}
+}
+main {
+	padding-bottom: 15px;
+	&.container {
+		clear: both;
+	}
+}
+.gloss-en {
+	font-size: 14px;
+	font-style: italic;
+}
+#wrap {
+	background: $white;
+	padding: 15px;
+	position: relative;
+}
+#div1 {
+	display: none;
+}
+#div2 {
+	display: none;
+}
+#div3 {
+	display: none;
+}
+#div4 {
+	display: none;
+}
+#div5 {
+	display: none;
+}
+#div6 {
+	display: none;
+}
+#div7 {
+	display: none;
+}
+#div8 {
+	display: none;
+}
+#div9 {
+	display: none;
+}
+#div10 {
+	display: none;
+}
+#div11 {
+	display: none;
+}
+#div12 {
+	display: none;
+}
+#div13 {
+	display: none;
+}
+#div14 {
+	display: none;
+}
+#div15 {
+	display: none;
+}
+#div16 {
+	display: none;
+}
+#div17 {
+	display: none;
+}
+#div18 {
+	display: none;
+}
+#div19 {
+	display: none;
+}
+#div20 {
+	display: none;
+}
+#div21 {
+	display: none;
+}
+#div22 {
+	display: none;
+}
+#div23 {
+	display: none;
+}
+#div24 {
+	display: none;
+}
+#div25 {
+	display: none;
+}
+#div26 {
+	display: none;
+}
+#div27 {
+	display: none;
+}
+#div28 {
+	display: none;
+}
+#div29 {
+	display: none;
+}
+#div30 {
+	display: none;
+}
+#div31 {
+	display: none;
+}
+#div32 {
+	display: none;
+}
+#div33 {
+	display: none;
+}
+#div34 {
+	display: none;
+}
+#div35 {
+	display: none;
+}
+#div36 {
+	display: none;
+}
+#div37 {
+	display: none;
+}
+#div38 {
+	display: none;
+}
+#div39 {
+	display: none;
+}
+#div40 {
+	display: none;
+}
+#wb-cont {
+}
+.full-width {
+	font-size: 0.8em;
+}
+.banner {
+	&.bnr_parl {
+		background: $url_16 no-repeat;
+		height: 113px;
+	}
+	&.bnr-side-queen {
+		background: $url_17 no-repeat;
+		min-height: 400px;
+	}
+	&.bnr-flags {
+		background: $url_18 no-repeat;
+		height: 100px;
+	}
+}
+section {
+	&.leftside {
+		padding-right: 15px;
+		float: left;
+	}
+	&.rightside {
+		float: right;
+	}
+	&.col-md-6 table.wb-charts {
+		font-size: 12px;
+		font-weight: 400;
+	}
+}
+.encadrage_header {
+	background-color: $color_leather_approx;
+	color: $color_gallery_approx;
+	padding-left: 15px;
+	margin: 0;
+	font-size: 1em;
+}
+.encadrage {
+	.glyphicon {
+		padding-left: 7px;
+		font-size: 25px;
+		color: $white;
+	}
+	h2 {
+		font-size: 16px;
+		margin: 0;
+		padding: 0;
+		padding: 15px;
+	}
+	h3 {
+		font-size: 16px;
+		margin: 0;
+		padding: 0;
+		padding: 15px;
+	}
+	h4 {
+		font-size: 16px;
+		margin: 0;
+		padding: 0;
+		padding: 15px;
+	}
+	h5 {
+		font-size: 16px;
+		margin: 0;
+		padding: 0;
+		padding: 15px;
+	}
+	h6 {
+		font-size: 16px;
+		margin: 0;
+		padding: 0;
+		padding: 15px;
+	}
+}
+h2 {
+	font-size: 24px;
+	&.toolkitTitle {
+		text-align: center;
+	}
+}
+.wb-tabs {
+	margin-bottom: 15px;
+	[role="tablist"] {
+		li {
+			background-color: $color_mystic_approx;
+			a {
+				background-color: $color_leather_approx;
+				color: $white;
+				&:hover {
+					text-decoration: underline;
+				}
+				img {
+					width: 15em;
+				}
+			}
+			&.active a {
+				border-top: none;
+				background: $color_san_juan_approx;
+				color: $white;
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: 0.5s ease;
+				&:hover {
+					border-top: none;
+				}
+			}
+		}
+		> li {
+			&.active a {
+				padding-top: 10px;
+			}
+			a:hover {
+				background-color: $color_san_juan_approx;
+			}
+		}
+	}
+	> {
+		.tabpanels {
+			background: $color_linen_approx;
+		}
+		.imageCarousel.tabpanels {
+			background: transparent;
+		}
+	}
+	details {
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0 4px 4px 4px;
+	}
+	&.carousel-s2 figure {
+		background: $color_gallery_approx;
+		figcaption {
+			background: $color_go_ben_approx;
+		}
+	}
+}
+.lt-ie9 {
+	.nvbar {
+		height: 40px;
+	}
+	.qs-text {
+		font-size: 14px !important;
+	}
+	input[type="radio"] + label {
+		width: 90%;
+		padding: 0 0 0 1em;
+		font-weight: 100 !important;
+	}
+}
+.wb-menu {
+	height: auto;
+	.wb-menu {
+		height: 38px;
+	}
+	.menu > li {
+		height: 38px;
+	}
+	.sm.open li a {
+		position: relative;
+	}
+}
+#wb-sm {
+	border-bottom: 1px solid $white;
+	border-top: 1px solid $white;
+	background-color: $color_soya_bean_approx;
+	.menu {
+		display: block !important;
+		margin-bottom: 0;
+		> li {
+			> a {
+				font-family: $font_0, $font_2, $font_3;
+				color: $white;
+				min-width: 200px;
+				height: 43px;
+				padding: 7px 35px 0 15px;
+				text-align: left;
+				cursor: pointer;
+				border-right: 1px solid $white;
+				&.wb-navcurr {
+				}
+				&:hover {
+					border-bottom: 3px solid $color_san_juan_approx;
+				}
+				&:focus {
+					border-bottom: 3px solid $color_san_juan_approx;
+				}
+			}
+			&.active > a {
+				//Instead of the line below you could use @include border-bottom-left-radius($radius)
+				border-bottom-left-radius: 0;
+				//Instead of the line below you could use @include border-bottom-right-radius($radius)
+				border-bottom-right-radius: 0;
+			}
+			&:first-child > a {
+				font-family: $font_1, $font_2, $font_3;
+				border-left: 1px solid $white;
+			}
+			&:last-child > a {
+			}
+		}
+	}
+	.sm {
+		&.open {
+			font-family: $font_1, $font_2, $font_3;
+			background: $color_ship_gray_approx;
+			color: $white;
+			overflow-y: auto;
+			border-top: 1px solid $color_silver_approx;
+			li {
+				a {
+					font-family: $font_1, $font_2, $font_3;
+					color: $color_blue_zodiac_approx;
+					background: $color_linen_approx;
+					border-top: 1px solid $color_mine_shaft_approx;
+					border-bottom: $color_mine_shaft_approx 0.5px solid;
+					border-left: $color_mine_shaft_approx 1px solid;
+					padding: 3px 35px 3px 15px;
+					&.wb-navcurr {
+					}
+					&:hover {
+						background: $color_tapa_approx;
+						border-left: 5px solid $color_san_juan_approx;
+						color: $white;
+					}
+					&:focus {
+						background: $color_tapa_approx;
+						border-left: 5px solid $color_san_juan_approx;
+						color: $white;
+					}
+				}
+				summary {
+					font-family: $font_1, $font_2, $font_3;
+					color: $color_blue_zodiac_approx;
+					background: $color_linen_approx;
+					border-top: 1px solid $color_mine_shaft_approx;
+					border-bottom: $color_mine_shaft_approx 0.5px solid;
+					border-left: $color_mine_shaft_approx 1px solid;
+					padding: 3px 35px 3px 15px;
+					&.wb-navcurr {
+					}
+					&:hover {
+					}
+					&:focus {
+					}
+				}
+			}
+			.slflnk a {
+				background: $color_gallery_approx;
+			}
+		}
+		.row {
+			background: transparent;
+		}
+	}
+	> div.nvbar > div {
+		&.row {
+			height: 38px;
+			max-height: 38px;
+		}
+		&.row::after {
+			content: "";
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			position: absolute;
+			z-index: -1;
+			overflow: hidden;
+		}
+	}
+}
+#wb-sm::after {
+	background-color: $color_white_approx;
+	content: "";
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+	overflow: hidden;
+}
+#mb-tb {
+	background-color: $color_mine_shaft_approx;
+	margin: 0;
+	> li > a {
+		color: $white;
+		display: block;
+		padding: 8px 20px;
+		&:hover {
+			color: $color_alto_approx;
+			background: $color_silver_approx;
+		}
+		&:focus {
+			color: $color_alto_approx;
+			background: $color_silver_approx;
+		}
+	}
+}
+#splashframetext {
+	width: 924px;
+	min-height: 668px;
+	display: block;
+	overflow: hidden;
+	background: transparent $url_29 0 0 no-repeat;
+}
+.obfuscated {
+	display: none;
+}
+#wordmark {
+	width: 890px;
+}
+#splash-content {
+	width: 890px;
+	background: transparent $url_30 0 0 no-repeat;
+	height: 600px;
+}
+#canada-logo {
+	width: 890px;
+	width: 890px;
+	text-align: right;
+}
+#noclose {
+	visibility: hidden;
+}
+#splashContainer {
+	width: 890px;
+	margin: 0 auto;
+}
+#title-welcome {
+	display: none;
+	padding: 70px;
+}
+#launch-area {
+	width: 20%;
+	float: left;
+	height: 150px;
+	padding-top: 125px;
+}
+#splash-box {
+	padding-top: 215px;
+}
+#launch-placement {
+	margin-top: 45px;
+	text-align: center;
+}
+#manualpop {
+	visibility: hidden;
+}
+#title-area {
+	width: 63%;
+	float: left;
+	padding-top: 195px;
+	padding-left: 12%;
+}
+#coursename {
+	font-size: 26px;
+	font-family: $font_0, $font_2, $font_3;
+	color: $color_outer_space_approx;
+	font-weight: bold;
+	display: inline-block;
+}
+#subcoursename {
+	font-size: 20px;
+	display: inline-block;
+	font-family: $font_1, $font_2, $font_3;
+	color: $color_outer_space_approx;
+}
+.modal-content {
+	background: $white !important;
+}
+.modal-dialog {
+	width: 55%;
+}
+.backnext {
+	a {
+		width: 42px;
+		height: 42px;
+		display: inline-block;
+		padding: 10px;
+		&:hover {
+			text-decoration: underline;
+		}
+		&:focus {
+			text-decoration: underline;
+		}
+	}
+	span {
+		min-width: 75px;
+		text-align: center;
+		display: inline-block;
+		padding-top: 4px;
+		color:$white;
+	}
+}
+#timeline {
+	line-height: 0;
+	font-size: 0;
+	margin: 30px 0;
+	a.peg {
+		vertical-align: middle;
+		height: 8px;
+		padding: 0;
+		margin: 0;
+		text-indent: -99999px;
+		text-align: left;
+		display: inline-block;
+		overflow: inherit;
+		background: $color_nobel_approx;
+		color: $black;
+		border-right: 1px solid $white;
+		&.current {
+			background-color: $color_san_juan_approx;
+			color: $white;
+			position: relative;
+		}
+		&.current::before {
+			background: $url_33 no-repeat;
+			content: '$url_33';
+			width: 25px;
+			height: 25px;
+			display: inline-block;
+			position: absolute;
+			top: -24px;
+			left: calc(50% - 10px);
+			background-size: contain;
+		}
+		&:hover {
+			background: $color_mine_shaft_approx;
+		}
+		&:focus {
+			background: $color_mine_shaft_approx;
+		}
+	}
+}
+.num-mod-pos {
+	font-size: 26px;
+	color: $color_mine_shaft_approx;
+	font-family: $font_0, $font_2, $font_3;
+	position: absolute;
+	top: 115px;
+	padding: 0;
+	background-color: transparent !important;
+	border: none;
+	margin-top: 42px;
+	margin-left: 64px;
+}
+details {
+	border: none;
+	margin: 3px 0;
+	&.myInfo {
+		border-top: thin solid $color_dove_gray_approx;
+		border-right: thin solid $color_dove_gray_approx;
+		border-bottom: thin solid $color_dove_gray_approx;
+		border-left: 4px solid $color_windsor_approx;
+		border-top: thin solid $color_ship_gray_approx;
+		border-right: thin solid $color_ship_gray_approx;
+		border-bottom: thin solid $color_ship_gray_approx;
+		border-left: thin solid $color_ship_gray_approx;
+		background: $color_linen_approx;
+		> p {
+			margin-top: 20px;
+		}
+		> summary + * {
+			margin-top: 10px;
+		}
+	}
+	&.alert {
+		padding-left: 0 !important;
+		width: 80%;
+		> summary {
+			border: 1px solid $color_mercury_approx;
+			padding: 0.6em;
+		}
+		> :first-child {
+			margin-left: 0;
+		}
+	}
+	summary {
+		&:focus {
+			background: $color_blue_bayoux_approx;
+			border: 1px solid $color_silver_approx;
+			color: $white;
+			text-decoration: none;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease;
+		}
+		&:hover {
+			background: $color_blue_bayoux_approx;
+			border: 1px solid $color_silver_approx;
+			color: $white;
+			text-decoration: none;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease;
+		}
+		h2 {
+			font-size: 16px;
+		}
+		h3 {
+			font-size: 16px;
+		}
+		h4 {
+			font-size: 16px;
+		}
+		h5 {
+			font-size: 16px;
+		}
+	}
+	&:not([open]) {
+		background-color: $color_leather_approx;
+		margin: 3px 0;
+		visibility: visible;
+	}
+	> ul {
+		list-style-type: disc;
+	}
+	> summary {
+		border: 1px solid $color_silver_approx;
+		color: $white;
+		font-weight: bold;
+		padding: 7px 15px;
+		+ * {
+			margin-top: 15px;
+		}
+	}
+	.tgl-panel {
+		h2 {
+			margin: 0;
+			padding: 0;
+			font-size: 18px;
+		}
+		h3 {
+			margin: 0;
+			padding: 0;
+			font-size: 18px;
+		}
+		h4 {
+			margin: 0;
+			padding: 0;
+			font-size: 18px;
+		}
+		h5 {
+			margin: 0;
+			padding: 0;
+			font-size: 18px;
+		}
+		h6 {
+			margin: 0;
+			padding: 0;
+			font-size: 18px;
+		}
+	}
+	&#alert.alert ul li {
+		margin-left: 1em;
+	}
+	&#alert2.alert ul li {
+		margin-left: 1em;
+	}
+	&#alert3.alert ul li {
+		margin-left: 1em;
+	}
+	&#alert4.alert ul li {
+		margin-left: 1em;
+	}
+	&#details-panel1.alert ul li {
+		margin-left: 1em;
+	}
+	&#details-panel2.alert ul li {
+		margin-left: 1em;
+	}
+	&.alert-info.myInfo {
+		&:before {
+			content: "";
+		}
+		> :first-child:before {
+			color: $color_saratoga_approx;
+			border: 2px solid $color_saratoga_approx;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 12px;
+			padding: 1px;
+			top: -10px;
+			left: 10px;
+			background: $white;
+			content: "\e086" !important;
+			font-family: $font_5;
+		}
+	}
+	> div.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	> :not(summary) {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	&.textVersion .tgl-panel {
+		padding: 10px;
+	}
+}
+summary {
+	&.m6-4 {
+		font-family: $font_1, $font_2, $font_3;
+		background: $color_snuff_approx;
+		border: 1px solid $color_deluge_approx;
+		margin-bottom: 5px;
+	}
+	&.h3 {
+		border: 1px solid $color_mercury_approx;
+		background: $white;
+		background: linear-gradient(to bottom, $white 50%, $mercury 100%);
+		filter: progid:dximagetransform.microsoft.gradient(startcolorstr='$white', endcolorstr='$mercury', gradienttype=0);
+		padding: 20px;
+	}
+}
+#dynamic_content {
+	blockquote {
+		background-color: $color_gallery_approx;
+		border-left: 2px solid $color_dorado_approx;
+	}
+	p {
+		margin-bottom: 20px;
+		margin-top: 15px;
+		line-height: 1.5;
+		&.lineleft {
+			border-left: 2px solid $color_dorado_approx;
+			padding: 5px;
+		}
+	}
+	.qs-current-info p {
+		margin-bottom: 0;
+	}
+}
+
+.overlay-def {
+	.modal-header {
+		background-color: $color_san_juan_approx;
+	}
+	.modal-title {color:$white;}
+	.mfp-close {
+		background-color: $color_san_juan_approx;
+		margin-top: 2px;
+		margin-right: 1px;
+	}
+}
+@media screen and(max-width: 767px) {
+}
+.text-left-not-xs {
+	text-align: inherit;
+}
+.text-center-not-xs {
+	text-align: inherit;
+}
+.text-right-not-xs {
+	text-align: inherit;
+}
+.text-justify-not-xs {
+	text-align: inherit;
+}
+.text-left-xs {
+	text-align: left;
+}
+.text-center-xs {
+	text-align: center;
+}
+.text-right-xs {
+	text-align: right;
+}
+.text-justify-xs {
+	text-align: justify;
+}
+@media screen and(max-width: 991px) {
+	.logo {
+		position: relative;
+		width: 400px;
+	}
+	#wb-sttl {
+		text-align: center;
+		margin-bottom: 10px;
+		span {
+			height: auto;
+		}
+		a {
+			padding-top: 1.1em;
+			position: relative;
+			z-index: 1;
+			margin: 15px;
+			width: auto;
+		}
+		object {
+			display: none;
+			height: 1.21em;
+			margin: 0;
+			position: absolute;
+			top: -10px;
+			width: 2.6em;
+		}
+		img {
+			display: none;
+			height: 1.21em;
+			margin: 0;
+			position: absolute;
+			top: -10px;
+			width: 2.6em;
+		}
+	}
+	#wb-bnr {
+	}
+	#logo {
+		z-index: 1;
+	}
+	.num-mod-pos {
+		top: 0;
+		margin: 15px;
+		font-size: 26px;
+		color: $color_mine_shaft_approx;
+		font-family: $font_0, $font_2, $font_3;
+		position: relative;
+	}
+	#wb-bar {
+		min-height: 3em;
+		> div > div {
+			a {
+				&:visited {
+				}
+				&:hover {
+					color: $black;
+				}
+				&:active {
+					color: $black;
+				}
+			}
+			nav a {
+				color: $color_dove_gray_approx;
+				border: 1px solid $color_silver_approx;
+				&:visited {
+					color: $color_dove_gray_approx;
+					border: 1px solid $color_silver_approx;
+				}
+			}
+			.pnl-btn a {
+				color: $color_danube_approx;
+				&:visited {
+					color: $color_danube_approx;
+				}
+			}
+		}
+	}
+	#wb-info {
+		.container {
+			display: block !important;
+			height: 50px;
+		}
+		> .container > .backnext {
+			width: 100%;
+			float: none !important;
+			border-top: 1px solid $color_silver_approx;
+			border-bottom: 1px solid $color_silver_approx;
+		}
+	}
+	.backnext {
+		> a {
+			text-decoration: none;
+			text-align: center;
+			display: inline-block;
+			height: 50px;
+			color: $white;
+			padding: 15px;
+			width: 20%;
+		}
+		> span {
+			text-decoration: none;
+			text-align: center;
+			display: inline-block;
+			height: 50px;
+			color: $white;
+			padding: 15px;
+			width: 60%;
+		}
+	}
+	#info-pnl {
+		display: none;
+	}
+	#wb-lng > ul > li {
+		border: 0;
+	}
+	#wb-glb-mn .pnl-btn li {
+		border: 0;
+	}
+	[dir=rtl] #wb-sttl {
+		object {
+			margin: 0;
+		}
+		img {
+			margin: 0;
+		}
+	}
+	#timeline a.peg {
+		height: 25px;
+		&.current {
+			height: 35px;
+		}
+	}
+	nav.backnext {
+		display: block !important;
+		height: 50px;
+		width: 100%;
+		float: none !important;
+		border-top: 1px solid $color_silver_approx;
+		border-bottom: 1px solid $color_silver_approx;
+	}
+	footer .backnext span {
+		padding: 15px;
+		border: 0;
+	}
+	html[lang="en"] footer {
+		.backnext a {
+			&.back {
+				background: $url_40 no-repeat center center;
+				width: 20%;
+				text-indent: -99999px;
+				border: 0;
+				&:hover {
+					background: $color_danube_approx $url_40 no-repeat center center;
+				}
+			}
+			&.next {
+				background: $url_43 no-repeat center center;
+				width: 20%;
+				text-indent: -99999px;
+				border: 0;
+				&:hover {
+					background: $color_danube_approx $url_43 no-repeat center center;
+				}
+			}
+		}
+		div.backnext a {
+			&.back.disabled {
+				background: $color_silver_approx $url_41 no-repeat center center;
+			}
+			&.next.disabled {
+				background: $color_silver_approx $url_42 no-repeat center center;
+			}
+		}
+	}
+	html[lang="fr"] footer {
+		.backnext a {
+			&.back {
+				background: $url_40 no-repeat center center;
+				width: 20%;
+				text-indent: -99999px;
+				border: 0;
+				&:hover {
+					background: $color_danube_approx $url_40 no-repeat center center;
+				}
+			}
+			&.next {
+				background: $url_43 no-repeat center center;
+				width: 20%;
+				text-indent: -99999px;
+				border: 0;
+				&:hover {
+					background: $color_danube_approx $url_43 no-repeat center center;
+				}
+			}
+		}
+		div.backnext a {
+			&.back.disabled {
+				background: $color_silver_approx $url_41 no-repeat center center;
+			}
+			&.next.disabled {
+				background: $color_silver_approx $url_42 no-repeat center center;
+			}
+		}
+	}
+}
+@media screen and(max-width: 1199px) {
+	.contexte {
+		dt {
+			padding: 15px;
+			font-size: 13px;
+			position: absolute;
+			top: 0;
+			left: 23%;
+			font-size: 13px;
+		}
+		> div {
+			padding: 15px;
+			font-size: 13px;
+		}
+	}
+}
+@media screen and(max-width: 1599px) {
+}
+@media screen and(min-width: 480px) {
+	.chart-container {
+		font-size: 14px;
+	}
+	.chart1-container {
+		font-size: 14px;
+	}
+	.chart2-container {
+		font-size: 14px;
+	}
+	.chart3-container {
+		font-size: 14px;
+	}
+	.chart4-container {
+		font-size: 14px;
+	}
+	.chart5-container {
+		font-size: 14px;
+	}
+	.chart6-container {
+		font-size: 14px;
+	}
+	.chart9-container {
+		font-size: 14px;
+	}
+	.chart10-container {
+		font-size: 14px;
+	}
+	.chart11-container {
+		font-size: 14px;
+		h3 {
+			font-size: 14px;
+		}
+		h4 {
+			font-size: 14px;
+		}
+	}
+	.chart12-container {
+		font-size: 14px;
+		h4 {
+			font-size: 14px;
+		}
+		li {
+			font-size: 13px;
+			line-height: 1.3;
+		}
+	}
+	.chart14-container {
+		font-size: 14px;
+	}
+	.chart15-container {
+		font-size: 14px;
+	}
+	.down-arrow2 {
+		font-size: 12px;
+	}
+	.down-arrow3 {
+		font-size: 12px;
+	}
+	#wb-bnr {
+	}
+	#logo {
+		z-index: 1;
+		background: none;
+	}
+}
+@media screen and(min-width: 768px) {
+}
+@media screen and(min-width: 992px) {
+	#wb-sttl {
+		a {
+		}
+		span {
+			display: table-cell;
+			vertical-align: middle;
+			height: 165px;
+		}
+	}
+}
+@media screen and(min-width: 1200px) {
+	.text-left-not-lg {
+		text-align: inherit;
+	}
+	.text-center-not-lg {
+		text-align: inherit;
+	}
+	.text-right-not-lg {
+		text-align: inherit;
+	}
+	.text-justify-not-lg {
+		text-align: inherit;
+	}
+	.text-left-lg {
+		text-align: left;
+	}
+	.text-center-lg {
+		text-align: center;
+	}
+	.text-right-lg {
+		text-align: right;
+	}
+	.text-justify-lg {
+		text-align: justify;
+	}
+}
+@media screen and(max-width: 479px) {
+	chart-container {
+		font-size: 12px;
+	}
+	.chart1-container {
+		font-size: 12px;
+	}
+	.chart2-container {
+		font-size: 12px;
+	}
+	.chart3-container {
+		font-size: 12px;
+	}
+	.chart4-container {
+		font-size: 12px;
+	}
+	.chart5-container {
+		font-size: 12px;
+	}
+	.chart6-container {
+		font-size: 12px;
+	}
+	.chart7-container {
+		font-size: 12px;
+	}
+	.chart8-container {
+		font-size: 12px;
+	}
+	.chart9-container {
+		font-size: 12px;
+	}
+	.chart10-container {
+		font-size: 12px;
+	}
+	.chart11-container {
+		font-size: 12px;
+		h3 {
+			font-size: 13px;
+		}
+		h4 {
+			font-size: 13px;
+		}
+	}
+	.chart12-container {
+		font-size: 12px;
+	}
+	.chart14-container {
+		font-size: 12px;
+	}
+	.chart15-container {
+		font-size: 12px;
+	}
+	.down-arrow2 {
+		font-size: 13px;
+	}
+	.down-arrow3 {
+		font-size: 13px;
+	}
+	.cyclevie {
+		min-width: 693px;
+	}
+	.cyclegestion {
+		min-width: 693px;
+	}
+	.mesureRendement {
+		min-width: 1000px;
+	}
+	#wb-bnr {
+		background: none;
+	}
+	#logo {
+		z-index: 1;
+		background: none;
+	}
+	.m6-2-1 > {
+		.hgt-sm {
+			font-size: 25px;
+		}
+		.glyphicon {
+			&.glyphicon-arrow-right {
+				font-size: 20px;
+				padding: 10px !important;
+			}
+			&.glyphicon-arrow-left {
+				font-size: 20px;
+				padding: 10px !important;
+			}
+			&.glyphicon-arrow-up {
+				font-size: 20px;
+				padding: 10px !important;
+			}
+			&.glyphicon-refresh {
+				font-size: 20px;
+				padding: 10px !important;
+			}
+		}
+	}
+	.m6-2-3 > .glyphicon {
+		&.glyphicon-triangle-left {
+			font-size: 20px;
+			padding: 10px !important;
+		}
+		&.glyphicon-triangle-right {
+			font-size: 20px;
+			padding: 10px !important;
+		}
+	}
+}
+@media screen and(min-width: 480px) and(max-width: 767px) {
+	#wb-bnr {
+		background: none;
+	}
+	#logo {
+		z-index: 1;
+		background: none;
+	}
+	.m6-2-1 > {
+		.hgt-sm {
+			font-size: 25px;
+		}
+		.glyphicon {
+			&.glyphicon-arrow-right {
+				font-size: 20px;
+				padding: 5px !important;
+			}
+			&.glyphicon-arrow-left {
+				font-size: 20px;
+				padding: 5px !important;
+			}
+			&.glyphicon-arrow-up {
+				font-size: 20px;
+				padding: 5px !important;
+			}
+			&.glyphicon-refresh {
+				font-size: 20px;
+				padding: 5px !important;
+			}
+		}
+	}
+	m6-2-3 > .glyphicon.glyphicon-triangle-left {
+		font-size: 20px;
+		padding: 5px !important;
+	}
+	.m6-2-3 > .glyphicon.glyphicon-triangle-right {
+		font-size: 20px;
+		padding: 5px !important;
+	}
+}
+@media screen and(min-width: 768px) and(max-width: 991px) {
+	#wb-bnr {
+		background: none;
+	}
+	#logo {
+		z-index: 1;
+		background: none;
+	}
+	.text-left-not-sm {
+		text-align: inherit;
+	}
+	.text-center-not-sm {
+		text-align: inherit;
+	}
+	.text-right-not-sm {
+		text-align: inherit;
+	}
+	.text-justify-not-sm {
+		text-align: inherit;
+	}
+	.text-left-sm {
+		text-align: left;
+	}
+	.text-center-sm {
+		text-align: center;
+	}
+	.text-right-sm {
+		text-align: right;
+	}
+	.text-justify-sm {
+		text-align: justify;
+	}
+	#wb-info h3 {
+		white-space: nowrap;
+	}
+	.m6-2-1 > {
+		.hgt-sm {
+			font-size: 25px;
+		}
+		.glyphicon {
+			&.glyphicon-arrow-right {
+				font-size: 20px;
+				padding: 10px !important;
+			}
+			&.glyphicon-arrow-left {
+				font-size: 20px;
+				padding: 10px !important;
+			}
+			&.glyphicon-arrow-up {
+				font-size: 20px;
+				padding: 10px !important;
+			}
+			&.glyphicon-refresh {
+				font-size: 20px;
+				padding: 10px !important;
+			}
+		}
+	}
+	m6-2-3 > .glyphicon.glyphicon-triangle-left {
+		font-size: 20px;
+		padding: 10px !important;
+	}
+	.m6-2-3 > .glyphicon.glyphicon-triangle-right {
+		font-size: 20px;
+		padding: 10px !important;
+	}
+}
+@media screen and(min-width: 992px) and(max-width: 1199px) {
+	.text-left-not-md {
+		text-align: inherit;
+	}
+	.text-center-not-md {
+		text-align: inherit;
+	}
+	.text-right-not-md {
+		text-align: inherit;
+	}
+	.text-justify-not-md {
+		text-align: inherit;
+	}
+	.text-left-md {
+		text-align: left;
+	}
+	.text-center-md {
+		text-align: center;
+	}
+	.text-right-md {
+		text-align: right;
+	}
+	.text-justify-md {
+		text-align: justify;
+	}
+}
+@media screen and(min-width: 1200px) and(max-width: 1599px) {
+}
+@media screen and(min-width: 1600px) {
+	@media print {
+		#wb-bar {
+			display: none !important;
+		}
+		#wb-info {
+			display: none !important;
+		}
+		#wb-sm {
+			display: none !important;
+		}
+		#wb-srch {
+			display: none !important;
+		}
+		#wb-sec {
+			display: none !important;
+		}
+		#wb-sttl a:after {
+			display: none !important;
+		}
+	}
+	#wb-lng > ul > li > ul > li > a {
+		&:focus {
+			background: $color_gallery_approx;
+			display: block;
+		}
+		&:hover {
+			background: $color_gallery_approx;
+			display: block;
+		}
+	}
+}
+.paginate_button {
+	color: $color_tundora_approx;
+}
+.centertable {
+	margin: 0 auto;
+	table-layout: fixed;
+}
+.vert-align {
+	vertical-align: middle !important;
+}
+.table-bordered {
+	> thead > tr {
+		> th {
+			border: 1px solid $color_silver_approx !important;
+		}
+		> td {
+			border: 1px solid $color_silver_approx !important;
+		}
+	}
+	> tbody > tr {
+		> th {
+			border: 1px solid $color_silver_approx !important;
+		}
+		> td {
+			border: 1px solid $color_silver_approx !important;
+		}
+	}
+	> tfoot > tr {
+		> th {
+			border: 1px solid $color_silver_approx !important;
+		}
+		> td {
+			border: 1px solid $color_silver_approx !important;
+		}
+	}
+}
+.dashed {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: dashed;
+	border-width: 1px;
+	color: $color_martini_approx;
+}
+.m17-6 {
+	border: 1px solid $color_mine_shaft_approx !important;
+	width: 70%;
+	background: $white !important;
+	padding: 4.5%;
+	background: $white !important;
+	table {
+		border: 1px solid $color_mine_shaft_approx !important;
+		width: 100%;
+		th {
+			padding: 1%;
+		}
+		td {
+			padding: 1%;
+		}
+	}
+}
+th {
+	border: 1px solid $color_gallery_approx !important;
+	padding: 10px;
+	color: $white;
+	background: $color_leather_approx;
+}
+.progress {
+	min-width: 200px;
+	border: thin solid $color_silver_approx;
+}
+.progress-bar {
+	background: $color_mariner_approx !important;
+}
+progress {
+	appearance: none;
+}
+progress::-moz-progress-bar {
+	background: $color_mariner_approx;
+	border: thin solid $color_silver_approx;
+}
+progress::-webkit-progress-bar {
+	background: $white;
+	border: thin solid $color_silver_approx;
+}
+progress::-webkit-progress-value {
+	background: $color_mariner_approx;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: inset 0 -1px 0 $black_15;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: width 0.6s ease;
+}
+.lnks-timeline {
+	display: inline-block;
+	width: 170%;
+}
+.lnk-timeline {
+	position: relative;
+	background: $color_san_juan_approx;
+	margin-right: 16px;
+	display: inline-block;
+	height: 32px;
+	margin-top: 5px;
+	padding-left: 25px;
+	text-decoration: none;
+	&.active {
+		background: $color_leather_approx !important;
+		&:after {
+			border-left-color: $color_leather_approx !important;
+			content: '';
+		}
+	}
+	&:active {
+		background: $color_leather_approx !important;
+		&:after {
+			border-left-color: $color_leather_approx !important;
+			content: '';
+		}
+	}
+	h4 {
+		margin-top: 0;
+		text-align: center;
+		margin-bottom: 0;
+		line-height: 32px;
+		color: $white;
+		text-align: center;
+		margin-bottom: 0;
+		line-height: 32px;
+		color: $white;
+		margin-top: 0;
+		font-size: 17px;
+	}
+	&:hover {
+		background: $color_leather_approx;
+		text-decoration: none;
+		&:after {
+			border-left-color: $color_leather_approx;
+		}
+		&:before {
+			border-color: $color_leather_approx;
+		}
+	}
+	&:focus {
+		text-decoration: none;
+	}
+	&:after {
+		left: 100%;
+		top: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-left-color: $color_san_juan_approx;
+		border-width: 16px;
+		margin-top: -16px;
+	}
+	&:before {
+		left: 100%;
+		top: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+	}
+	.arrow-left {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 16px 0 16px 15.7px;
+		border-color: transparent transparent transparent $color_white_approx;
+	}
+	h2 {
+		text-align: center;
+		margin-bottom: 0;
+		line-height: 32px;
+		color: $white;
+		margin-top: 0;
+		font-size: 17px;
+	}
+	h3 {
+		text-align: center;
+		margin-bottom: 0;
+		line-height: 32px;
+		color: $white;
+		margin-top: 0;
+		font-size: 17px;
+	}
+	h5 {
+		text-align: center;
+		margin-bottom: 0;
+		line-height: 32px;
+		color: $white;
+		margin-top: 0;
+		font-size: 17px;
+	}
+}
+.cnt-timeline {
+	border: thin solid $color_silver_approx;
+	padding: 20px;
+	background: $color_linen_approx;
+}
+.inline-cnt {
+	display: none;
+}
+#img1 {
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+#img2 {
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+#img3 {
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+#img4 {
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+#graphPopup1 {
+	width: 340px;
+	height: 370px;
+}
+.alert {
+	padding: 0;
+	margin-bottom: -1px;
+	&.alert-info.myInfo {
+		background: $white;
+		border-top: thin solid $color_dove_gray_approx;
+		border-right: thin solid $color_dove_gray_approx;
+		border-bottom: thin solid $color_dove_gray_approx;
+		border-left: 4px solid $color_dove_gray_approx;
+	}
+}
+.accordion {
+	margin-bottom: 20px;
+	.wb-toggle {
+		background: $color_leather_approx;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0;
+		color: $white;
+	}
+	.tgl-panel {
+		border: none !important;
+		padding: 2px;
+		padding-bottom: 0 !important;
+		p {
+		}
+	}
+	details[open] .wb-toggle {
+		background: $color_san_juan_approx;
+	}
+	details summary {
+		border: none;
+		text-decoration: none !important;
+		&:hover {
+			background-color: $color_san_juan_approx;
+		}
+		h5:hover {
+			text-decoration: underline;
+		}
+	}
+}
+details[open] {
+	padding-bottom: 0;
+	border: 1px solid $color_silver_approx;
+	padding-bottom: 15px;
+	> summary {
+		background: $color_blue_bayoux_approx;
+		border: none;
+	}
+	&.alert-info.myInfo > :first-child:before {
+		width: 26px;
+	}
+}
+.qs-elearning-activity {
+	margin-top: 15px;
+	margin-left: -1em;
+}
+.qs-answers {
+	margin-left: 35px;
+	th {
+		font-size: 1.1em;
+	}
+	td {
+		font-size: 0.9em;
+	}
+}
+.qs-generic {
+	margin-left: 20px;
+}
+.qs-exercise {
+	display: block;
+	border: thin solid $color_silver_approx;
+	padding: 15px;
+	background-color: $white;
+}
+.pagination {
+	a {
+		min-width: 90px;
+		text-align: center;
+	}
+	li {
+		display: inline-block;
+		margin-right: 20px;
+	}
+}
+.qs-disabled {
+	display: none;
+}
+.qs-current-info {
+	background-color: $color_san_juan_approx;
+	padding: 10px 15px 10px 25px;
+	color: $white;
+	font-size: 1.2em;
+	//Instead of the line below you could use @include border-top-left-radius($radius)
+	border-top-left-radius: 5px;
+	//Instead of the line below you could use @include border-top-right-radius($radius)
+	border-top-right-radius: 5px;
+}
+.qs-feedback {
+	margin-top: 20px;
+	span.glyphicon.glyphicon-remove + p {
+		line-height: 34px !important;
+	}
+	.glyphicon.glyphicon-remove {
+		float: left;
+		margin-right: 15px;
+	}
+}
+.qs-right {
+	padding: 20px 20px 0 20px;
+	margin: 0 20px 20px;
+	border: thin solid $color_sushi_approx;
+	.glyphicon.glyphicon-ok {
+		color: $color_sushi_approx;
+	}
+}
+.qs-wrong {
+	padding: 20px 20px 0 20px;
+	margin: 0 20px 20px;
+	border: thin solid $color_mexican_red_approx;
+	.glyphicon.glyphicon-remove {
+		color: $color_mexican_red_approx;
+	}
+}
+input {
+	width: inherit;
+}
+input[type="radio"] {
+	float: left;
+	+ label {
+		width: 90%;
+		padding: 1em;
+	}
+}
+label {
+	display: inline;
+	padding: 0.5em;
+	font-weight: normal !important;
+	font-size: 14px !important;
+	font-weight: 100;
+}
+.qs-num {
+	font-size: 18px;
+}
+.qs-step1 {
+	.qs-nextquestion {
+		display: none;
+	}
+	.qs-prevquestion {
+		display: none;
+	}
+	.qs-current-info {
+		display: none;
+	}
+}
+.qs-step3 {
+	.qs-nextquestion {
+		display: none;
+	}
+	.qs-prevquestion {
+		display: none;
+	}
+	.qs-current-info {
+		display: none;
+	}
+}
+.qs-nextquestion {
+	background-color: $green;
+}
+.qs-submit-activity {
+	background-color: $green;
+}
+legend {
+	font-size: 16px !important;
+	font-weight: bold !important;
+}
+.instructional {
+	color: $color_japanese_laurel_approx !important;
+}
+.textVersion {
+	margin-bottom: 20px;
+}
+.centeredText {
+	text-align: center;
+}
+.imgBorder {
+	border: 3px solid $white;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 2px 2px 5px 4px $black_11;
+}
+figure {
+	padding: 10px 0 15px 0 !important;
+}
+.pencil {
+	color: $color_totem_pole_approx;
+	border-bottom: 5px solid $color_totem_pole_approx;
+}
+.pencilContainer {
+	border: 1px solid $color_totem_pole_approx;
+	padding: 15px;
+	width: 90%;
+	margin-bottom: 10px;
+	background-color: $color_hint_of_red_approx;
+}
+.uncheck {
+	.glyphicon {
+		padding-left: 7px;
+		padding-right: 7px;
+		font-size: 18px;
+		color: $color_mine_shaft_approx;
+	}
+	.glyphicon-unchecked:hover {
+		color: $color_totem_pole_approx;
+	}
+}
+.answerLeft {
+	color: $color_mulled_wine_approx;
+	font-size: 22px;
+	text-align: right;
+}
+.caseStudy {
+	border: 1px solid $color_soya_bean_approx;
+	padding: 15px;
+}
+dt {
+	font-weight: normal;
+}
+.modal-body {
+	padding-bottom: 20px;
+}
+figcaption {
+	caption-side: bottom;
+	font-size: 13px;
+}
+.no-details {
+	details.alert > summary {
+		padding-left: 1.4em;
+		margin-left: 0;
+		&:before {
+			content: "\25BA\a0";
+			color: $white;
+		}
+	}
+	details[open].alert > summary:before {
+	}
+}
+#m1-11_graphpop {
+	width: 380px;
+	height: 380px;
+	margin: 10px auto 20px;
+}
+.m1-11_float {
+	float: left;
+	width: 175px;
+	height: 175px;
+	img {
+		cursor: pointer;
+	}
+}
+.btn-default {
+	background: $color_leather_approx;
+	color: $white;
+	border-color: $color_blue_zodiac_approx;
+	&:hover {
+		background: $color_san_juan_approx;
+		color: $white;
+		border-color: $color_blue_zodiac_approx;
+	}
+	&:focus {
+		background: $color_san_juan_approx;
+		color: $white;
+		border-color: $color_blue_zodiac_approx;
+	}
+	&.focus {
+		background: $color_san_juan_approx;
+		color: $white;
+		border-color: $color_blue_zodiac_approx;
+	}
+	&:active {
+		background: $color_san_juan_approx;
+		color: $white;
+		border-color: $color_blue_zodiac_approx;
+	}
+	&.active {
+		background: $color_san_juan_approx;
+		color: $white;
+		border-color: $color_blue_zodiac_approx;
+	}
+}
+.timelineWidget {
+	min-height: 385px;
+}
+.welcome {
+	border: 1px solid $gray;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 5px;
+	[role="tablist"] li a {
+		background-color: transparent;
+	}
+}
+#mapBackground {
+	width: 480px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+.hotspots {
+	width: 28px;
+	height: 28px;
+}
+#spot1 {
+	position: absolute;
+	cursor: pointer;
+	top: 244.5px;
+	left: 54.5px;
+	background-image: $url_44;
+	&:hover {
+		background-image: $url_45;
+	}
+}
+#spot2 {
+	position: absolute;
+	cursor: pointer;
+	top: 256.5px;
+	left: 99.5px;
+	background-image: $url_46;
+	&:hover {
+		background-image: $url_47;
+	}
+}
+#spot3 {
+	position: absolute;
+	cursor: pointer;
+	top: 263.5px;
+	left: 142.5px;
+	background-image: $url_48;
+	&:hover {
+		background-image: $url_49;
+	}
+}
+#spot4 {
+	position: absolute;
+	cursor: pointer;
+	top: 258.5px;
+	left: 181.5px;
+	background-image: $url_50;
+	&:hover {
+		background-image: $url_51;
+	}
+}
+#spot5 {
+	position: absolute;
+	cursor: pointer;
+	top: 334.5px;
+	left: 322.5px;
+	background-image: $url_52;
+	&:hover {
+		background-image: $url_53;
+	}
+}
+#spot6 {
+	position: absolute;
+	cursor: pointer;
+	top: 306.5px;
+	left: 390.5px;
+	background-image: $url_54;
+	&:hover {
+		background-image: $url_55;
+	}
+}
+#spot7 {
+	position: absolute;
+	cursor: pointer;
+	top: 283.5px;
+	left: 375.5px;
+	background-image: $url_56;
+	&:hover {
+		background-image: $url_57;
+	}
+}
+#spot8 {
+	position: absolute;
+	cursor: pointer;
+	top: 245.5px;
+	left: 450.5px;
+	background-image: $url_58;
+	&:hover {
+		background-image: $url_59;
+	}
+}
+#spot9 {
+	position: absolute;
+	cursor: pointer;
+	top: 290.5px;
+	left: 338.5px;
+	background-image: $url_60;
+	&:hover {
+		background-image: $url_61;
+	}
+}
+.colouredShape {
+	float: left;
+	height: 12px;
+	margin-top: 5px;
+}
+.levelText {
+	float: left;
+	p {
+		margin: 0 5px !important;
+	}
+}
+h1 {
+	font-size: 28px;
+}
+h3 {
+	font-size: 20px;
+}
+h6 {
+	font-size: 14px;
+}
+.threatsHeading {
+	font-size: 18px;
+	margin-top: 0;
+}
+.btn {
+	margin-top: 10px;
+}
+.btn-submit {
+	margin: 10px 10px 10px 0;
+}
+#m3graphpop {
+	width: 773px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+#m3e2 {
+	float: left;
+	display: block;
+}
+#m3e3 {
+	float: left;
+	display: block;
+}
+#m3e4 {
+	float: left;
+	display: block;
+}
+#m3e5 {
+	float: left;
+	display: block;
+}
+#m3e7 {
+	float: left;
+	display: block;
+}
+#m3e8 {
+	float: left;
+	display: block;
+}
+#m3e9 {
+	float: left;
+	display: block;
+}
+#m3e10 {
+	float: left;
+	display: block;
+}
+#m3e12 {
+	float: left;
+	display: block;
+}
+#m3e13 {
+	float: left;
+	display: block;
+}
+#m3e14 {
+	float: left;
+	display: block;
+}
+#m3e15 {
+	float: left;
+	display: block;
+}
+#m3e1 {
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+#m3e6 {
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+#m3e11 {
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+#m3e16 {
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+#m4graphpop {
+	width: 818px;
+	height: 405px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+#m4e1 {
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+#m4e2 {
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+#m4e3 {
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+#m4e4 {
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+#m4e5 {
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+#m4e6 {
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+#m4e7 {
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+#m4e18 {
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+.textBlue {
+	color: $color_danube_approx !important;
+}
+.leftTableEqual {
+	width: 50%;
+}
+.rightTableEqual {
+	width: 50%;
+}
+*:focus {
+	outline-color: $color_green_pea_approx;
+	outline: none;
+}
+.container * {
+}
+.wb-sppe object {
+}
+.m5-3 > .glyphicon.glyphicon-arrow-right {
+	font-size: 35px;
+	color: $color_windsor_approx;
+}
+.m6-2-1 > .glyphicon {
+	&.glyphicon-arrow-right {
+		font-size: 25px;
+		color: $color_windsor_approx;
+	}
+	&.glyphicon-arrow-left {
+		font-size: 25px;
+		color: $color_windsor_approx;
+	}
+	&.glyphicon-arrow-down {
+		font-size: 25px;
+		color: $color_windsor_approx;
+	}
+	&.glyphicon-arrow-up {
+		font-size: 25px;
+		color: $color_windsor_approx;
+	}
+	&.glyphicon-refresh {
+		font-size: 35px;
+		color: $color_windsor_approx;
+	}
+}
+m6-2-3 > .glyphicon.glyphicon-triangle-left {
+	font-size: 25px;
+	color: $color_windsor_approx;
+}
+.glyphicon.glyphicon-share-alt {
+	font-size: 55px;
+	color: $color_windsor_approx;
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: scaleY(-1);
+}
+.m6-2-4 > .glyphicon.glyphicon-chevron-right {
+	font-size: 50px;
+}
+.m7-0 > .glyphicon {
+	&.glyphicon-arrow-right {
+		font-size: 115px;
+		color: $color_mischka_approx;
+	}
+	&.glyphicon-arrow-up {
+		font-size: 115px;
+		color: $color_mischka_approx;
+	}
+}
+.m13-5 > .glyphicon.glyphicon-arrow-down {
+	font-size: 35px;
+	color: $color_windsor_approx;
+}
+.m11-2-10 > table th {
+	padding: 1%;
+}
+#wb-glb-mn .pnl-btn {
+	font-family: $font_1, $font_2, $font_3;
+	font-size: 12px;
+	float: right;
+	line-height: 1;
+	margin-top: 5px;
+	li {
+		list-style-type: none;
+		float: left;
+		padding: 0 12px;
+		&:first-child {
+		}
+	}
+	a {
+		display: block;
+		font-size: 1.5em;
+		line-height: 1em;
+		width: 100%;
+	}
+	span .glyphicon-th-list {
+		top: 0;
+	}
+}
+.togglediv1 #div1 {
+	display: block;
+}
+.togglediv2 #div2 {
+	display: block;
+}
+.togglediv3 #div3 {
+	display: block;
+}
+.togglediv4 #div4 {
+	display: block;
+}
+.togglediv5 #div5 {
+	display: block;
+}
+.togglediv6 #div6 {
+	display: block;
+}
+.togglediv7 #div7 {
+	display: block;
+}
+.togglediv8 #div8 {
+	display: block;
+}
+.togglediv9 #div9 {
+	display: block;
+}
+.togglediv10 #div10 {
+	display: block;
+}
+.togglediv11 #div11 {
+	display: block;
+}
+.togglediv12 #div12 {
+	display: block;
+}
+.togglediv13 #div13 {
+	display: block;
+}
+.togglediv14 #div14 {
+	display: block;
+}
+.togglediv15 #div15 {
+	display: block;
+}
+.togglediv16 #div16 {
+	display: block;
+}
+.togglediv17 #div17 {
+	display: block;
+}
+.togglediv18 #div18 {
+	display: block;
+}
+.togglediv19 #div19 {
+	display: block;
+}
+.togglediv20 #div20 {
+	display: block;
+}
+.togglediv21 #div21 {
+	display: block;
+}
+.togglediv22 #div22 {
+	display: block;
+}
+.togglediv23 #div23 {
+	display: block;
+	display: block;
+}
+.togglediv24 #div24 {
+	display: block;
+}
+.togglediv25 #div25 {
+	display: block;
+}
+.togglediv26 #div26 {
+	display: block;
+}
+.togglediv27 #div27 {
+	display: block;
+}
+.togglediv28 #div28 {
+	display: block;
+}
+.togglediv29 #div29 {
+	display: block;
+}
+.togglediv30 #div30 {
+	display: block;
+}
+.togglediv31 #div31 {
+	display: block;
+}
+.togglediv32 #div32 {
+	display: block;
+}
+.togglediv33 #div33 {
+	display: block;
+}
+.togglediv34 #div34 {
+	display: block;
+}
+.togglediv35 #div35 {
+	display: block;
+}
+.togglediv36 #div36 {
+	display: block;
+}
+.togglediv37 #div37 {
+	display: block;
+}
+.togglediv38 #div38 {
+	display: block;
+}
+.togglediv39 #div39 {
+	display: block;
+}
+.togglediv40 #div40 {
+	display: block;
+}
+.video.leftside {
+	background: $url_19 no-repeat;
+	height: 454px;
+	border: $color_silver_approx 1px solid;
+	margin-right: 50px;
+}
+#sm-pnl a {
+	color: $color_mine_shaft_approx;
+	&:hover {
+		background: $color_alto_approx;
+	}
+	&:focus {
+		background: $color_alto_approx;
+	}
+}
+html[lang="fr"] footer {
+	.backnext a {
+		&.back {
+			background: $color_soya_bean_approx;
+			width: 155px;
+			height: 47px;
+			text-indent: -99999px;
+			&:hover {
+				background: $color_outer_space_approx;
+			}
+		}
+		&.next {
+			background: $color_soya_bean_approx;
+			width: 155px;
+			height: 47px;
+			text-indent: -99999px;
+			&:hover {
+				background: $color_outer_space_approx;
+			}
+		}
+	}
+	div.backnext a {
+		&.back.disabled {
+			background: $color_silver_approx;
+			color: $black;
+		}
+		&.next.disabled {
+			background: $color_silver_approx;
+			color: $black;
+		}
+	}
+}
+html[lang="en"] footer div.backnext a {
+	&.back.disabled {
+		background: $color_silver_approx;
+		color: $black;
+	}
+	&.next.disabled {
+		background: $color_silver_approx;
+		color: $black;
+	}
+}
+detail.myInfo.alert > summary a:hover {
+	background-color: $color_westar_approx;
+}
+.circle > a {
+	text-align: center;
+	color: $white;
+	text-decoration: none;
+	display: block;
+	background: $url_38 no-repeat 0 0/ 100% auto;
+	height: 300px;
+	width: 179px;
+	padding-top: 20%;
+}
+.circle-graph > .circle > a > .count {
+	font-size: 3em;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+	color: $color_tundora_approx;
+	&.current {
+		background: $color_saratoga_approx;
+		border-color: $color_silver_approx;
+	}
+	&:hover {
+		background-color: $color_blue_bayoux_approx;
+		color: $white;
+	}
+	&:focus {
+		background-color: $color_blue_bayoux_approx;
+		color: $white;
+	}
+	&:active {
+		background-color: $color_blue_bayoux_approx;
+		color: $white;
+	}
+}
+table.dataTable thead .sorting-icons {
+	font-family: $font_5;
+}
+.qs-feedback-final p {
+	font-size: 1.2em;
+}
+.qs-text > legend {
+	font-size: 16px !important;
+	font-weight: bold;
+}
+.glyphicon-chevron-down:before {
+	color: $white;
+}
+.myInfo summary {
+	font-weight: bold;
+}
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+ol.toolboxList {
+	list-style-type: lower-alpha;
+}
+select option {
+	background: $white;
+}
+.qs-question span.hiddenNumbering {
+	display: none;
+}

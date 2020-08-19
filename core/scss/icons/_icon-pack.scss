@@ -1,0 +1,76 @@
+/* ----------------Icon pack----------------*/
+#wb-bar ul.text-right > li a, .supermenu > li > .home {
+  background: url('base/#{$icon-pack-url}') no-repeat;
+}
+
+#wb-bar ul.text-right {
+  > li a.home {
+    background-position: 5px 4px;
+    &:hover {
+      background-position: 5px -38px;
+    }
+  }
+  li a {
+    &.home:focus {
+      background-position: 5px -38px;
+    }
+    &.help:focus {
+      background-position: -102px -38px;
+    }
+    &.toolbox:focus {
+      background-position: -49px -38px;
+    }
+    &.sitemap:focus {
+      background-position: -200px -38px;
+    }
+    &.quit:focus {
+      background-position: -150px -38px;
+    }
+    &.print:focus {
+      background-position: -247px -38px;
+    }
+    &.save-edit-mode:focus {
+      background-position: -400px -38px;
+    }
+  }
+  > li a.help {
+    background-position: -102px 4px;
+    &:hover {
+      background-position: -102px -38px;
+    }
+  }
+  > li a.toolbox {
+    background-position: -49px 4px;
+    &:hover {
+      background-position: -49px -38px;
+    }
+  }
+  > li a.sitemap {
+    background-position: -200px 4px;
+    &:hover {
+      background-position: -200px -38px;
+    }
+  }
+  > li a.quit {
+    background-position: -150px 4px;
+    &:hover {
+      background-position: -150px -38px;
+    }
+  }
+  > li a.print {
+    background-position: -252px 4px;
+    &:hover {
+      background-position: -252px -38px;
+    }
+  }
+> li a.save-edit-mode {
+    background-position: -400px 4px;
+    &:hover {
+      background-position: -400px -38px;
+    }
+  }	
+}
+
+/* ----------------Circle bundle----------------*/
+
+

@@ -1,139 +1,107 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
-	<head>
-		<meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+
+<head>
+   <meta charset="utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+   <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
         Modified by CSPS Learning Services
          -->
-		<title>CSPS e-learning Framework</title>
-		<meta content="width=device-width, initial-scale=1" name="viewport" /> 
-		<!-- Meta data -->
-		<meta name="description" content="" />
-		<!-- Meta data-->
-		<!--[if gte IE 9 | !IE ]><!-->
-        <link href='https://fonts.googleapis.com/css?family=Titillium+Web:600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <link href="./assets/favicon.ico" rel="icon" type="image/x-icon" />
-		<link rel="stylesheet" href="./css/theme.css" />
-        <link rel="stylesheet" class="printcss" id="printstyle" href="./theme/csps_print.css" type="text/css" media="print">
-		<!--<![endif]-->
-        <link rel="stylesheet" class="csps-fix" href="./theme/CSPS_fix.css" />
-        <link rel="stylesheet" class="theme" id="theme-style" href="./theme/blank.css" />
-    <!--[if lt IE 9]>
-    <link href="./assets/favicon.ico" rel="shortcut icon" />
-    <link rel="stylesheet" href="./css/ie8-theme.css" />
-    <link rel="stylesheet" class="theme" id="theme-style" href="./theme/ie8_fix.css" />
-    <script src="./js/jquery1-11-1.min.js"></script>
-        <script src="./js/ie8-wet-boew.js"></script>
-    <![endif]-->
+   <title>CSPS Online Training</title>
+   <meta content="width=device-width, initial-scale=1" name="viewport" />
+   <!-- Meta data -->
+   <meta name="description" content="" />
+   <!-- Meta data-->
+   <!--[if gte IE 9 | !IE ]><!-->
+   <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+   <link href="./WET/assets/favicon.ico" rel="icon" type="image/x-icon" />
+   <link rel="stylesheet" href="./WET/css/theme.css" />
+   <!--<![endif]-->
+    <script src="./core/js/scorm/APIWrapper.js" type="text/javascript"></script>	
+   <link rel="stylesheet" href="./core/js/lib/jquery/plugins/fullpage/fullpage.css" />
+   <link rel="stylesheet" id="main-style" href="./theme/main.css" />
+   <link rel="stylesheet" href="./theme/plugins/qsbeta/qsbeta.css" />
+   <link rel="stylesheet" class="theme" id="theme-style" href="./theme/theme.css" />
+   <link rel="stylesheet" class="printcss" id="printstyle" href="./theme/csps_print.css" type="text/css" media="print">
+   <script data-main="core/js/main" src="./core/js/lib/require.js"></script>
+	   <noscript>
+      <link rel="stylesheet" href="./WET/css/noscript.css" />
+   </noscript>
+</head>
 
-<noscript><link rel="stylesheet" href="./css/noscript.css" /></noscript>
-
-	</head>
-	<body vocab="http://schema.org/" typeof="WebPage">
-		<ul id="wb-tphp">
-			<li class="wb-slc">
-				<a class="wb-sl" href="#dynamic_content">Skip to main content</a>
-			</li>
-		</ul>
-        <header role="banner">
-            <div id="wb-bnr">
-                <div id="wb-bar">
-                    <div class="container">
-                        <div class="row">
-							<section id="wb-lng" class="visible-md visible-lg">
-								<h2>Toolbar</h2>
-								<ul class="text-right">
-
-                                    <li><a href="#" class="lang" title="Français" lang="fr" hreflang="fr" onClick="changeLang('fr');return false;">Français</a></li>
-                                    <li><a href="#" class="home" title="Home" onClick="loadHome();return false;"> Home</a></li>
-									<li><a class="help wb-lbx lbx-ajax" title="Help" href="content/tools/help_en.html">Help</a></li>
-									<li><a href="#" class="toolbox" aria-haspopup="true" title="Toolbox">Toolbox</a>
-										<ul class="list-unstyled open tb-container" style="display:none;" aria-hidden="true" role="menu">
-                                        	<li><a class="wb-lbx tb-item glossary" title="Glossary" href="content/tools/glossaire_en.html">Glossary</a></li>
-                                        	<li><a class="wb-lbx tb-item resources" title="Resources" href="content/tools/resources_en.html">Resources</a></li>
-                                            <li><a class="wb-lbx tb-item resources" title="Activities" href="content/tools/classroom_activities_en.html">Classroom Activities</a></li>
-                                        </ul>
-                                    </li>
-									<li><a href="#" class="quit" title="Exit" onClick="window.opener.quitCourse();">Exit</a></li>
-								</ul>
-							</section>
-							<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
-								<h2>Mobile</h2>
-								<ul class="pnl-btn list-inline text-right">
-									<li><a href="#mb-pnl" title="menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Menu</span></span></span></a></li>
-								</ul>
-								<div id="mb-pnl"></div>
-							</section>
-						</div>
-					</div>
-				</div>
-				<div class="container">
-					<div class="row">
-						<div id="wb-sttl">
-							<a href="#" onclick="loadHome();return false;">
-                                <span>CSPS e-learning Framework</span>
-                            </a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<nav role="navigation" id="wb-sm" data-ajax-replace="./ajax/supermenu_en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
-				<div class="container nvbar">
-					<h2>Topics menu</h2>
-				</div>
-			</nav>	
-        </header>
-    		<main role="main" property="mainContentOfPage" class="container">
-            <div class="breadcrumb visible-xs visible-sm row" ></div>
-			<div id="dynamic_content">
-				Loading Content...
-			</div>
-			</main>
-		<footer role="contentinfo" id="wb-info" class="visible-xxs visible-xs visible-sm visible-md visible-lg wb-navcurr">
-			<div class="container">
-				<div class="backnext"><a href="#" class="back"></a><span></span><a href="#" class="next"></a></div>
-			</div>
-		</footer>
-
-<!--[if gte IE 9 | !IE ]><!-->
-<script src="./js/jquery2-1-4.min.js"></script>
-<script type="text/javascript">
-	//Force no cache on AJAX
-	$.ajaxSetup ({
-	    cache: false
-	});
-</script>
-<script src="./js/wet-boew.js"></script>
-
-		<!--<![endif]-->
-		<!--[if lt IE 9]>
-			<script src="./js/ie8-wet-boew2.js"></script>
-		<![endif]-->
-
-        <script src="./settings/general.js"></script>
-        <script src="./settings/labels.js"></script>        
-		<script src="./js/plugins/native.history.js"></script>
-		<script src="./js/nav.js"></script>        
-		<script src="./js/popper/browsercloseeventscript.js"></script>
-		<script src="./js/saveobj.js"></script>        
-		<script src="./content/scripts/interactions.js"></script>
-        
-        <script type="text/javascript">
-		document.getElementById('theme-style').href = "./theme/"+cssFileName;
-		$(document).ready(function(e) {
-			document.title = courseLegacyCode+" - "+courseTitle_en;
-			showTopMenu();
-			$("#wb-sttl>a>span").html(courseTitle_en);
-			if(courseSubtitle_en.length>0){ 
-				$("#wb-sttl>a").append("<span class='subtitle'>"+courseSubtitle_en+"</span>") 
-			}
-			
-			var versionPattern = new RegExp(/MSIE [0-9]{1}\./ig);
-			if(navigator.userAgent.match(versionPattern)!=null)	   $('html').addClass('lt-ie9')  
-		});
-		</script>	
-
+<body vocab="http://schema.org/" typeof="WebPage">
+   <ul id="wb-tphp">
+      <li class="wb-slc">
+         <a class="wb-sl" href="#dynamic_content">Skip to main content</a>
+      </li>
+   </ul>
+   <header role="banner" class="loading">
+      <div id="wb-bnr">
+         <div id="wb-bar">
+            <div class="top-menu container">
+               <div class="row">
+                  <section id="wb-lng" class="visible-md visible-lg">
+                     <h2 id="toolbar-title">Toolbar</h2>
+                     <ul class="text-right" role="menu" aria-labelledby="toolbar-title">
+                        <li role="menuitem"><a href="#" class="lang hide" lang="fr" hreflang="fr">Français</a><span class="wb-inv" lang="fr">(Changer de langue)</span></li>
+                        <li role="menuitem"><a href="#" class="home hide" title="Home">Home</a></li>
+                        <li role="menuitem"><a class="help wb-lbx hide" data-effect="mfp-zoom-in" title="Help" href="#">Help</a></li>
+                        <li role="menuitem"><a href="#" class="toolbox hide" aria-haspopup="true" title="Toolbox">Toolbox</a>
+                           <ul class="list-unstyled open tb-container" style="display:none;" aria-hidden="true" role="menu">
+                              <li role="menuitem"><a class="wb-lbx tb-item favorites hide" data-effect="mfp-zoom-in" title="Favourites" href="#">Favourites</a></li>
+                              <li role="menuitem"><a class="wb-lbx tb-item glossary hide" data-effect="mfp-zoom-in" title="Glossary" href="#">Glossary</a></li>
+                              <li role="menuitem"><a class="wb-lbx tb-item resources hide" data-effect="mfp-zoom-in" title="Resources" href="#">Resources</a></li>
+                           </ul>
+                        </li>
+                        <li role="menuitem"><a class="print hide" title="Print" href="javascript:print();">Print</a></li>
+                        <li role="menuitem"><a class="sitemap wb-lbx hide" title="Sitemap" data-effect="mfp-zoom-in" href="#sitemap_pop">Sitemap</a></li>
+                        <li role="menuitem"><a href="#" title="Exit" class="quit hide">Exit</a></li>
+                     </ul>
+                  </section>
+                  <section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
+                     <h2>Mobile</h2>
+                     <ul class="pnl-btn list-inline text-right">
+                        <li><a href="#mb-pnl" title="menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Menu</span></span></span></a></li>
+                     </ul>
+                     <div id="mb-pnl"></div>
+                  </section>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div id="wb-sttl">
+                  <a href="#" tabindex="-1">
+                     <span>CSPS e-learning Framework</span>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <nav role="navigation" id="wb-sm" data-ajax-replace="./content/supermenu/supermenu_en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg supermenu-wrapper" typeof="SiteNavigationElement" aria-label="Main Navigation">
+         <div class="container nvbar">
+            <h2>Topics menu</h2>
+         </div>
+      </nav>
+   </header>
+   <main role="main" property="mainContentOfPage" class="container loading">
+      <span class="spinner"></span>
+      <div class="breadcrumb visible-xs visible-sm row"></div>
+      <div id="dynamic_content"></div>
+   </main>
+   <footer role="contentinfo" id="wb-info" class="visible-xxs visible-xs visible-sm visible-md visible-lg wb-navcurr loading">
+      <div class="container">
+         <div class="backnext">
+            <a href="#" class="back">Previous</a>
+            <span>
+               <span class="pagelbl"></span>
+            </span>
+            <a href="#" class="next">Next</a>
+         </div>
+      </div>
+   </footer>
+   <span class="spinner"></span>
 </body>
+
 </html>
