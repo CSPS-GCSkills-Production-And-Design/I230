@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8" />
+
+    <title>CSPS Framework Launcher</title>
+
+<!--[if lte IE 8]>
+<script src="./js/jquery1-11-1.min.js"></script>
+<![endif]-->
+<!--[if gt IE 8]><!-->
+ <!--script src="js/popper/jquery.min.js"></script-->
+	<script src="./js/jquery2-1-4.min.js"></script>
+<!--<![endif]-->
+    <script src="js/scorm/APIWrapper.js" type="text/javascript"></script>
+    <script src="js/popper/popupwindowscripts.js"></script>
+    <script src="settings/general.js"></script>
+    <script type="text/javascript">
+
+         confirmExitMessage = "You have attempted to leave this page. Are you sure?";
+		 function noclose(){
+		 	document.getElementById("noclose").className="";
+		 }
+		 $(document).ready(function(e) {
+			 $("#coursename").html(courseTitle_en)
+			 $("#subcoursename").html(courseSubtitle_en)
+			 
+			 $(".theme").attr("href", "./theme/"+cssFileName)
+		});
+    </script>
+    <link rel="stylesheet" class="theme" href="./theme/blank.css" /> 
+</head>
+<body  onload="checkLaunch('index_en.html');return false;" >
+	<div id="splashContainer">
+	<span id="noclose" class="obfuscated">Do not close this window. If you close it you will end your session.</span>
+    <header><div id="wordmark"><img src="./assets/CSPS_FIP_BlackRed_E.png" alt="Mot-symbole de l'École de la fonction publique du Canada" /></div></header>
+	<main>
+	  <div id="splash-content">
+    	
+        <h1 id="title-area">
+        	<span id="title-welcome">Welcome to</span>
+            <span id="coursename">The CSPS eLearning Framework</span>
+            <span id="subcoursename"></span>
+        </h1><div id="launch-area">
+        	<div id="launch-placement">
+            	<span id="manualpop">If the course did not start automatically, click </span> <br>
+                <a href="#" onclick="launchPop('index_en.html')" id="launch-btn">Launch</a>
+        	</div>
+        </div>
+   
+	  </div>
+    </main>
+    <footer><div id="canada-logo"><img src="./assets/canada_flag.png" alt="Mot-symbole du Canada" /></div></footer>
+  </div>   
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="fr" class="no-js">
+<head>
+    <meta charset="utf-8" />
+
+    <title>Préparation de présentations au Conseil du Trésor et de documents à l’intention du Cabinet</title>
+
+<!--[if lte IE 8]>
+<script src="./js/jquery1-11-1.min.js"></script>
+<![endif]-->
+<!--[if gt IE 8]><!-->
+ <!--script src="js/popper/jquery.min.js"></script-->
+	<script src="./js/jquery2-1-4.min.js"></script>
+<!--<![endif]-->
+    <script src="js/scorm/APIWrapper.js" type="text/javascript"></script>
+    <script src="js/popper/popupwindowscripts.js"></script>
+    <script src="settings/general.js"></script>
+    <script type="text/javascript">
+         confirmExitMessage = "Êtes-vous certain de vouloir quitter?";
+		 function noclose(){
+		 	document.getElementById("noclose").className="";
+		 }
+		 $(document).ready(function(e) {
+			 $("#coursename").html(courseTitle_fr)
+			 $("#subcoursename").html(courseSubtitle_fr)
+			 
+			 $(".theme").attr("href", "./theme/"+cssFileName)
+		});
+    </script>
+    <link rel="stylesheet" class="theme" href="./theme/blank.css" />   
+</head>
+<body  onload="checkLaunch('index_fr.html');return false;" >
+	<div id="splashContainer">
+	<span id="noclose" class="obfuscated">Ne pas fermer cette fenêtre. Si vous quitter, la session en cours sera fermée.</span>
+    <header><div id="wordmark"><img src="./assets/CSPS_FIP_BlackRed_F.png" alt="Mot-symbole de l’École de la fonction publique du Canada" /></div></header>
+	<main>
+	  <div id="splash-content">
+    	
+        <h1 id="title-area">
+        	<span id="title-welcome">Bienvenue à</span>
+            <span id="coursename">Préparation de présentations au Conseil du Trésor et de documents à l’intention du Cabinet</span>
+            <span id="subcoursename"></span>
+        </h1>
+        <div id="launch-area">
+        	<div id="launch-placement">
+            	<span id="manualpop">Si le cours ne s'ouvre pas automatiquement, cliquez sur </span><br>
+                <a href="#" onclick="launchPop('index_fr.html')" id="launch-btn">Démarrer</a>
+        	</div>
+        </div>
+    	
+    
+   
+	  </div>
+    </main>
+    <footer><div id="canada-logo"><img src="./assets/canada_flag.png" alt="Mot-symbole du Canada" /></div></footer>
+        
+	</div>
+</body>
+</html>

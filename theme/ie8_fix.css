@@ -1,0 +1,198 @@
+
+#wb-sm > div.nvbar > div.row{background-image:none; /*Background-color:white;*/}
+.modal-content{background-color:white !important;}
+.modal-body {
+	padding-bottom: 20px !important;
+}
+ 
+ .curieux, .pratiques, .boiteoutils{font-weight:600; z-index:1; position:relative; height:350px; width:400px; color:#005a6f;}
+ .curieux a, .pratiques a, .boiteoutils a{font-size:18px; font-weight:600; text-decoration:none; position:absolute; left:150px; top:305px; color:#005a6f;}
+ 
+.documentsdownlContent{padding:4.5% !important;}
+.modal-header{background-image:none; color:white;}
+legend{font-size:16px;}
+label{display:inline !important;}
+qs-answers{padding:0;} 
+/*table td, table th, table th > p, table td > p {padding: 0 1% 1% 1% !important;}*/
+.wb-tabs [role="tablist"] li a{border:1px solid #ccc !important;}
+/*.wb-tabs [role="tablist"] li.active a:hover, .wb-tabs [role="tablist"] li.active a{
+	border-top:3px solid #005a6f !important;
+} */
+/*INFO BULLE*/
+a.info:hover span, a.info:focus span {
+	white-space: nowrap; 
+	/* On change la valeur de la propriété white-space pour 
+	qu'il n'y ait pas de retour à la ligne non désiré. */ 
+	top: 20px; 
+	/* On positionne notre infobulle. */ 
+	left: 10px; 
+	z-index:1; 
+	width:200px;
+}
+.logo{position:relative; width:410px;}
+.num-mod-pos{background:none !important; font-weight:bold; top:100px; left:145px;}
+
+.cyclevie, .cyclegestion{font-family:"Gotham Bold", sans-serifs; z-index:1; position:relative; width:450px;}
+	#cycle1{position:absolute; margin:68px 0 0 154px; font-size:13px; }
+	#cycle2{position:absolute; margin:165px 0 0 70px; font-size:13px;}
+	#cycle3{position:absolute; margin:165px 0 0 300px; font-size:13px;}
+	#cycle4{position:absolute; margin:272px 0 0 75px; font-size:13px;}
+	#cycle5{position:absolute; margin:272px 0 0 300px; font-size:13px;}
+	#cycle6{position:absolute; margin:365px 0 0 190px; font-size:13px;}
+	/*cycle gestion*/
+	#cycle7{position:absolute; margin:62px 0 0 145px; font-size:13px; width:300px;}
+	#cycle8{position:absolute; margin:165px 0 0 210px; font-size:13px; width:300px; text-align:center;}
+	#cycle9{position:absolute; margin:278px 0 0 320px; font-size:13px;}
+	#cycle10{position:absolute; margin:380px 0 0 155px; font-size:13px; width:300px;}
+	#cycle11{position:absolute; margin:278px 0 0 30px; font-size:13px; width:300px;}
+	#cycle12{position:absolute; margin:163px 0 0 65px; font-size:13px;}
+	
+	
+/*JD m6-2-4 Mesure Rendement*/
+	.mesureRendement{font-family:"Gotham Bold", sans-serifs; z-index:1; position:relative; width:1000px;}
+	#mesureRendement1{position:absolute; margin:45px 0 0 65px; font-size:15px; text-align:center;}
+	#mesureRendement2{position:absolute; margin:140px 0 0 190px; font-size:15px; text-align:center;}
+	#mesureRendement3{position:absolute; margin:225px 0 0 190px; font-size:15px; text-align:center;}
+	#mesureRendement4{position:absolute; margin:310px 0 0 190px; font-size:15px;}
+	#mesureRendement5{position:absolute; margin:430px 0 0 100px; width:300px; font-size:15px; text-align:center;}
+	#mesureRendement6{position:absolute; margin:220px 0 0 480px; width:300px; font-size:15px;}
+	#mesureRendement7{position:absolute; margin:310px 0 0 480px; width:300px; font-size:15px;}
+	#mesureRendement8{position:absolute; margin:400px 0 0 415px; width:300px; font-size:15px; text-align:center;}
+	#mesureRendement9{position:absolute; margin:125px 10px 10px 700px; font-size:15px; width:300px; text-align:center;}
+	#mesureRendement10{position:absolute; margin:225px 0 0 835px; font-size:15px; text-align:center;}
+	#mesureRendement11{position:absolute; margin:310px 0 0 835px; font-size:15px; text-align:center;}
+	#mesureRendement12{position:absolute; margin:400px 0 0 835px; font-size:15px; text-align:center;}
+	
+	/*JD m6-2-3 architecture Programmes*/
+	.architectureProg{font-family:"Gotham Bold", sans-serifs; z-index:1; position:relative; width:987px;}
+	#architectureProg0{margin:60px 0 0 0;}
+	#architectureProg1{margin:160px 0 0 0;}
+	#architectureProg2{margin:290px 0 0 0;}
+	#architectureProg3{margin:40px 0 0 430px;}
+	#architectureProg4{margin:154px 0 0 250px;}
+	#architectureProg5{margin:154px 0 0 460px;}
+	#architectureProg6{margin:154px 0 0 665px;}
+	#architectureProg7{margin:275px 0 0 325px;}
+	#architectureProg8{margin:275px 0 0 553px;}
+	#architectureProg9{margin:385px 0 0 212px;}
+	#architectureProg10{margin:385px 0 0 420px;}
+	#architectureProg11{margin:385px 0 0 630px;}
+	#architectureProg12{margin:12px 0 0 880px;}
+	#architectureProg13{margin:214px 0 0 880px;}
+	
+	/*JD m7-2 Modèle gestion*/
+	.modelegestion > h3 {margin-left:100px; width:250px;}
+	.modelegestion{font-family:"Gotham Bold", sans-serifs; z-index:1; position:relative; width:450px;}
+	#modelegestion1{position:absolute; margin:80px 0 0 140px; font-size:13px; text-align:center;}
+	#modelegestion2{position:absolute; margin:200px 0 0 255px; width:200px; font-size:13px; text-align:center;}
+	#modelegestion3{position:absolute; margin:310px 0 0 280px; width:150px; font-size:13px; text-align:center;}
+	#modelegestion4{position:absolute; margin:410px 0 0 150px; width:150px; font-size:13px;}
+	#modelegestion5{position:absolute; margin:315px 0 0 45px; font-size:13px; text-align:center;}
+	#modelegestion6{position:absolute; margin:200px 0 0 55px; font-size:13px;}
+	
+	#modelegestion7 {position:absolute; margin:20px 0 0 200px; font-size:13px; text-align:center;}
+	#modelegestion8 {position:absolute; margin:250px 0 0 160px; font-size:13px; text-align:center;}
+	
+ 
+#wb-bnr {/* this is the banner */
+	background: transparent url('images/banner.jpg') bottom right no-repeat;
+	background-size:contain;
+  }
+  
+@media screen and (max-width: 991px) {
+  /*
+  WET-BOEW
+  @title: Small view and under (screen only)
+  	
+ */
+
+.logo{position:relative; width:400px;}
+ 
+  /*
+ Banner
+ */
+ #wb-sm:after{  
+  	/*background: url(images/banner.jpg) no-repeat top right; */
+ }
+ #wb-bnr {/* this is the banner */
+	
+	/*background: #fbfbfb url('images/redfernbannerlight.jpg') no-repeat 0% 0;*/
+	background: transparent url('images/banner.jpg') top right no-repeat;
+	/*background:url('images/banner.jpg');
+	background-repeat:no-repeat;
+	background-size:contain;*
+	background-position:right;*/
+
+  }
+  #logo{
+	  z-index:1;
+	  background:url('images/banner.jpg');	  
+   }
+  .num-mod-pos {
+	   font-size:26px; 
+	   color:#333333; 
+	   font-family:'Gotham Bold', sans-serif, 'Myriad Pro'; 
+	   position:absolute; 
+	   top:120px; 
+	   left:145px;
+	   display:inline-block;
+	}
+}
+
+body{
+	background-color:#FFF;
+}
+main.container {
+	background: #fff; 
+	margin-bottom: 0px !important;
+}
+#wb-sttl span {
+	/*padding-left:320px;
+	padding-top: 30px;
+	display: table-cell; 
+	vertical-align: middle; 
+	font-style:italic;*/
+}
+div.backnext { 
+	/*background-color: none; */
+}
+footer .backnext {
+	/*font-size: 0.8em !important;*/
+}
+
+#wb-sttl a{
+	width:40%;	
+}
+
+/* graphic sizing */
+
+#m320f1{
+	width:312px;
+	height:111px;
+}
+#m320f2{
+	width:312px;
+	
+}
+
+/* Accordion Fix*/
+.alert{
+	padding:0 !important;	
+	margin-bottom:0 !important;
+}
+
+.no-details details.alert > summary {
+  margin:0px;  
+}
+
+.wb-tabs [role="tablist"] li a{
+	color:#FFF;	
+}
+
+.wb-tabs [role="tablist"] li a:hover{
+	color:#FFF;
+}
+
+
+
+

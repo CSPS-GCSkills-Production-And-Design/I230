@@ -1,0 +1,56 @@
+﻿build v1.04
+built from wet 4.0.17
+
+changes in this version
+- slowness once viewed all pages, nav.js (testTrack #62) (DONE, SC)
+- Jquery loading locally rather than online (https/offline problem) ( DONE TD)
+- wb-add automatisé (DONE SJ)
+- glossaire par lettre (DONE SJ)
+- duplicate IDs in menu, wb-auto-1/2/3 (DONE SJ)
+- qs-beta.js loads automatically (DONE SJ)
+- lightbox mobile bug (DONE SC)
+
+changes in last version:
+
+- removed everything from launch/index en/fr and put in settings
+- launch pages are standardized (DONE - SJ)
+- bug: arrows in the supermenu would go to next line , fixed in csps-fix(DONE - SJ)
+- bug: menu width shifting fixed in CSPS-fix(DONE - SJ)
+- bug : checkedViewedSubs 3 level that only took last level into account (DONE - SJ)
+- functionality to change default externals to lightbox or fixed size popups (DONE - SJ)
+- bookmark ; better syntax by christian(DONE - SJ)
+- issue en 1024 IE8 seulement. (ON HOLD - SJ)
+- Jquery now loading locally from ./js/ (1-11-1, 2-1-1, 2-1-4) (DONE - TD)
+
+
+
+- removed IDs from menu
+- migrated to wet 4.0.17
+- moved settings pages to settings folder
+- moved interactions to content in scripts folder
+- class viewed dans menu not accessible (maybe add :after ou qqchose?)(DONE SJ)
+- Page lock via lockPage()/unlockPage() (TD)
+
+
+- removed firstPage from settings (sj)
+- scorm completion fix (SJ)
+- Big play Button in Audio & Video player(bl)
+- IE Compatibility view testTrack #14 (SC)
+- Popper does not close when clicking the close browser button, testTrack #29 (SC)
+- Quiz Pages - 2 timelines in firefox testTrack # 22 (SC)
+- le menu ne s'affiche pas correctement en bookmark ou en refresh (SJ)
+- french version of launch_en page (DONE SJ)
+- trigger completion when viewed all pages testTrack #36 (Done - SC)
+
+- https links (sj)
+- history(sc)
+- viewed pages (sc)
+- bouton close sur glossary,resources (sc)
+- toolbox toujours en anglais (sc)
+- glossaire - bouton Back to top seulement en anglais (sc)
+- enlever le scroll quand on ferme le lightbox - Testtrack billet #11 (sc)
+- Erreure JS dans menu en mode mobile - Testtrack billet #1 (sc)
+- mobile - menu top button cropped - TestTrack billet #18 (sc)
+- glossaire - mots qui commencent avec un accent - testTrack billet #21 (sc)
+- In IE8 Toolbox is not keyboard-friendly - testTrack billet #5 (sc)	
+- remove onclick=javascrip" etc. from supermenu file (SJ)

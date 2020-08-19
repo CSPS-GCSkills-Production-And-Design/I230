@@ -1,0 +1,109 @@
+﻿[
+	{
+	
+	"msgs" :
+		{
+		"msgNoSelection" : "Please select an answer.",
+		"msgNoMultiSelection" : "Please select at least one answer.",
+		"msgEmptyTextField" : "Please write an answer.",
+		"msgEmptyDropDown" : "Please select an answer.",
+		"msgDuplicateDropDown" : "Duplicate answers are not permitted.",
+		"msgQuestionUnanswered" : "Please complete the question before going forward.",
+		"msgActivityNotCompleted" : "Please complete the activity before going forward.",
+		"msgFeedbackRecallAnswerPrefix" : "You have answered: ",
+		"msgFeedbackRecallNoAnswerPrefix" : "You did not answer this question.",
+		"msgUnanweredQuestionGotoPrefix" : "Get back to question #",
+		"msgUnanweredQuestionGotoSuffix" : ".",
+		"msgPtsPrefix" : "Question is worth <strong>",
+		"msgPtsSuffix" : "</strong> points."
+		},
+		
+	"activity" :
+		{
+		"activity_type":"standard",
+		"question_skipping_enabled":false,
+		"tracking_enabled":false,
+		"recap_required":false,
+		"trigger_course_completion":false,
+		"trigger_completion_score":100,
+		"final_feedback_score_threshold":100,
+		"submit_all_at_once":false,
+		"submit_aao_disable_right_anwers":true,
+		"simple_act_disable_mode":"any",
+		"reset_retry_enabled":false,
+		"animations_and_transitions":"none",
+		"auto_scroll_to_question":true,
+		"force_insert_final_submit":true
+		},
+		
+	"exercise" :
+		{
+		"exercise_type":"standard",
+		"pool_picks":"null",
+		"random_order":"null",
+		"feedback_type":"instant",
+		"randomize_answers":false,
+		"submit_all_at_once":false
+		},
+		
+	"question" :
+		{
+		"question_type":"type-0",
+		"branching_type":"none",
+		"question_value":1
+		},
+		
+	"domAHref" :
+		{},
+		
+	"domButtons" : 
+		{
+		"qs_start":"<input class=\"qs-start btn btn-default\" type=\"button\" value=\"Start Quiz!\">",
+		"qs_getbacktoit":"<input class=\"qs-getbacktoit btn btn-default\" type=\"button\" value=\"Get back to where you were test\">",
+		"qs_resetretry":"<input class=\"qs-resetretry btn btn-default\" type=\"button\" value=\"Reset and retry the test\">",
+		"qs_submit":"<input class=\"qs-submit btn btn-default\" type=\"button\" value=\"Submit\">",
+		"qs_submit_exercise":"null",
+		"qs_submit_activity":"<input class=\"qs-submit-activity btn btn-default\" type=\"button\" value=\"Submit Activity\">", 
+		"qs_continue":"<input class=\"qs-continue btn btn-default\" type=\"button\" value=\"Next\">",
+		"qs_retry_activity":"<input class=\"qs-retry-activity btn btn-default\" type=\"button\" value=\"Retry Activity\">",
+		"qs_display_recap":"<input class=\"qs-display-recap btn btn-default\" type=\"button\" value=\"Review questions\">"
+		},
+		
+	"domVisuals" :
+		{
+		"positive_feedback":"<span style=\"display:inline-block;overflow:hidden;text-indent:-9999px;background-image:url('images/ico_right.jpg');width:19px;height:19px;background-size:19px;\">good answer</span>",
+		"negative_feedback":"<span style=\"display:inline-block;overflow:hidden;text-indent:-9999px;background-image:url('images/ico_wrong.jpg');width:19px;height:19px;background-size:19px;\">wrong answer</span>"
+		},
+		
+	"type_0" :
+		{
+		"empty_allowed":false,
+		"min_char_required":1
+		},
+	
+	"type_1" :
+		{
+		"crypt_answers":true,
+		"persistent_vsfb":true
+		},
+	
+	"type_2" :
+		{
+		"crypt_answers":true,
+		"empty_allowed":false
+		},
+	
+	"type_3" :
+		{
+		"ignore_case":false
+		},
+	
+	"type_4" :
+		{
+		"allow_duplicate_answer":false,
+		"substitute_recap_label":"data-recap-label",
+		"randomize_options":false
+		}
+	
+	}
+]

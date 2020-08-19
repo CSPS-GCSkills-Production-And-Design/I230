@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+
+/* fix for menubar which becomes larger in IE8 after clicking out */
+.lt-ie9 .nvbar{height:40px;} /* CSPS SJ fixes an ie8 bug*/
+
+.backnext>a.disabled {
+  cursor: none;
+}
+/* -------------------------
+       breadcrumb
+	   ----------------------*/
+.breadcrumb{
+	}
+/* -------------------------
+	CHEVRON issues
+----------------------*/	
+
+	span.glyphicon-chevron-down{
+		/*margin-right:-22px; */
+	};
+
+        #wb-sm .menu > li> a {
+      	padding-right:35px;
+	}
+/* shifting li width in menubar */
+	.wb-menu{height:40px;}
+
+/* -------------------------
+	menuwidth glitch
+	----------------------*/		
+.wb-menu .sm {
+	position:absolute!important;
+	}	
+.glyphicon-search:before{
+	content:'';}
