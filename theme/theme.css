@@ -2869,16 +2869,12 @@ summary.h3 {
     background: #ccc url(images/ico_rarr_d.png) no-repeat center center; }
 
   html[lang="fr"] footer .backnext a.back {
-    background: url(images/ico_larr_grey.png) no-repeat center center;
     width: 20%;
-    text-indent: -99999px;
     border: 0; }
     html[lang="fr"] footer .backnext a.back:hover {
       background: #5f9bc2 url(images/ico_larr_grey.png) no-repeat center center; }
   html[lang="fr"] footer .backnext a.next {
-    background: url(images/ico_rarr_grey.png) no-repeat center center;
     width: 20%;
-    text-indent: -99999px;
     border: 0; }
     html[lang="fr"] footer .backnext a.next:hover {
       background: #5f9bc2 url(images/ico_rarr_grey.png) no-repeat center center; }
@@ -4106,19 +4102,9 @@ m6-2-3 > .glyphicon.glyphicon-triangle-left {
     background: #ddd; }
 
 html[lang="fr"] footer .backnext a.back {
-  background: #5e5348;
-  width: 155px;
-  height: 47px;
-  text-indent: -99999px; }
-  html[lang="fr"] footer .backnext a.back:hover {
-    background: #28363c; }
+  width: 155px; }
 html[lang="fr"] footer .backnext a.next {
-  background: #5e5348;
-  width: 155px;
-  height: 47px;
-  text-indent: -99999px; }
-  html[lang="fr"] footer .backnext a.next:hover {
-    background: #28363c; }
+  width: 155px; }
 html[lang="fr"] footer div.backnext a.back.disabled {
   background: #ccc;
   color: black; }

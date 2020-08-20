@@ -3474,18 +3474,14 @@ summary {
 	html[lang="fr"] footer {
 		.backnext a {
 			&.back {
-				background: $url_40 no-repeat center center;
 				width: 20%;
-				text-indent: -99999px;
 				border: 0;
 				&:hover {
 					background: $color_danube_approx $url_40 no-repeat center center;
 				}
 			}
 			&.next {
-				background: $url_43 no-repeat center center;
 				width: 20%;
-				text-indent: -99999px;
 				border: 0;
 				&:hover {
 					background: $color_danube_approx $url_43 no-repeat center center;
@@ -4924,22 +4920,12 @@ m6-2-3 > .glyphicon.glyphicon-triangle-left {
 html[lang="fr"] footer {
 	.backnext a {
 		&.back {
-			background: $color_soya_bean_approx;
 			width: 155px;
-			height: 47px;
-			text-indent: -99999px;
-			&:hover {
-				background: $color_outer_space_approx;
-			}
+			
 		}
 		&.next {
-			background: $color_soya_bean_approx;
 			width: 155px;
-			height: 47px;
-			text-indent: -99999px;
-			&:hover {
-				background: $color_outer_space_approx;
-			}
+			
 		}
 	}
 	div.backnext a {
