@@ -7,8 +7,8 @@ define({
   "courseSubtitle_fr": "à l’appui des programmes et des services",
   "seriesTitle_en": "",
   "seriesTitle_fr": "",
-  "addToolboxPage": [],
+  "addToolboxPage": [{ "name_en":"Glossary", "name_fr":"Glossaire", "filename_en":"glossary_en", "filename_fr":"glossary_fr"}],
 	
-	showFavorites: true,
+	showFavorites: false,
   "editMode": false
 });

@@ -335,8 +335,8 @@ Source: <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=16552" target="_bl
     </ul>
    
 </div>
-  <script src="js/plugins/jquery-listnav.js"></script>
-		<link rel="stylesheet" href="js/plugins/listnav.css">
+<script src="core/js/plugins/jquery-listnav.js"></script>
+    <link rel="stylesheet" href="core/js/plugins/listnav.css">
 <script type="text/javascript">
 	$(document).ready(function(e) {
 		if($('html:not(.lt-ie9)').length){
@@ -344,7 +344,7 @@ Source: <a href="http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=16552" target="_bl
 				includeAll:false,
 				includeNums: false,
 				noMatchText: 'Le glossaire ne contient pas de termes commençant par cette lettre.',
-				showCounts:false
+				showCounts:true
 			});
 		}
 		$("#divtoggle").delegate("a", "click", function(e) {
