@@ -1,9 +1,9 @@
 <h1>Activités typiques</h1>
 <section role="content" class="col-md-12">
     <p>Sélectionnez chaque activité pour en savoir plus sur les activités clés de la planification de la <abbr title="Gestion de l'information">GI</abbr>.</p>
-     <div class="timelineWidget row">
+    <div class="timelineWidget row">
         <div class="lnks-timeline">
-            <a id="timeline-1" class="lnk-timeline col-md-2 col-sm-4 col-xs-4 active" href="#" >
+            <a id="timeline-1" class="lnk-timeline col-md-2 col-sm-4 col-xs-4 active" href="#">
                 <span class="arrow-left"></span>
                 <!--IMPORTANT: Update headings accordingly -->
                 <h2>1. Déterminez l’état actuel</h2>
@@ -16,31 +16,33 @@
                 <span class="arrow-left"></span>
                 <h2>3. Décrivez comment vous y arriverez</h2>
             </a>
-            
-        </div><!--lnks-timeline-->
+        </div>
+        <!--lnks-timeline-->
         <div class="cnt-timeline col-md-11">
             <div id="inline-cnt-1" class="inline-cnt">
-               <p>La tenue d’une vérification est une activité clé pour déterminer les forces et les faiblesses de la <abbr title="Gestion de l'information">GI</abbr>.</p>
-               <p>Il est important de donner une idée exacte. Parfois, nous voyons les choses comme nous voulons qu’elles soient, et non pas comme elles sont réellement.</p>
+                <p>La tenue d’une vérification est une activité clé pour déterminer les forces et les faiblesses de la <abbr title="Gestion de l'information">GI</abbr>.</p>
+                <p>Il est important de donner une idée exacte. Parfois, nous voyons les choses comme nous voulons qu’elles soient, et non pas comme elles sont réellement.</p>
             </div>
             <div id="inline-cnt-2" class="inline-cnt">
                 <p>Parmi les principales activités, mentionnons ce qui suit : </p>
                 <ul>
-                    <li>des rencontres avec les intervenants et la haute direction pour obtenir leur approbation et leur appui envers votre vision de la <abbr title="Gestion de l'information">GI</abbr></li>
-                    <li>la réalisation d’une analyse environnementale afin de s’assurer que l’on prend bien en considération l’information essentielle</li>
+                    <li>des rencontres avec les intervenants et la haute direction pour obtenir leur approbation et leur appui envers votre vision de la <abbr title="Gestion de l'information">GI</abbr>;</li>
+                    <li>la réalisation d’une analyse environnementale afin de s’assurer que l’on prend bien en considération l’information essentielle.</li>
                 </ul>
             </div>
             <div id="inline-cnt-3" class="inline-cnt">
                 <p>Une fois que vous avez cerné l’écart entre l’état actuel et l’état souhaité, vous pouvez planifier les étapes à accomplir de façon précise. Parmi les principales activités, mentionnons ce qui suit :</p>
                 <ul>
-                    <li>la détermination des objectifs à court et à long terme</li>
-                    <li>la définition des mesures de suivi</li>
-                    <li>l’établissement des indicateurs de rendement clés</li>
-                    <li>la détermination de la personne responsable du plan afin d’obtenir sa signature</li>
+                    <li>la détermination des objectifs à court et à long terme;</li>
+                    <li>la définition des mesures de suivi;</li>
+                    <li>l’établissement des indicateurs de rendement clés;</li>
+                    <li>la détermination de la personne responsable du plan afin d’obtenir sa signature.</li>
                 </ul>
             </div>
-        </div> <!--cnt-timeline-->        
-    </div> <!--timelineWidget-->
+        </div>
+        <!--cnt-timeline-->
+    </div>
+    <!--timelineWidget-->
 </section>
 <section class="col-md-4">
     <a class="btn btn-default center-block disabled wb-lbx" href="#button1">Mieux comprendre</a>
@@ -52,7 +54,7 @@
             <header class="modal-header overlay-hd">
                 <h2 class="modal-title" id="lbx-title">Le mot de l’expert</h2>
             </header>
-            <div class="modal-body"> 
+            <div class="modal-body">
                 <p>Lors de l’élaboration de votre plan de <abbr title="Gestion de l'information">GI</abbr>, assurez-vous que la haute direction l’approuve et l’appuie sans réserve.</p>
             </div>
         </section>
@@ -61,33 +63,31 @@
 <section class="col-md-4">
     <a class="btn btn-default center-block disabled wb-lbx" href="#button3">Vers la salle de classe</a>
 </section>
-
 <script type="text/javascript">
-	$(document).ready(function(e) {
-		// init la premiere timeline
-		$("#inline-cnt-1").show().attr('aria-hidden','false');
-		$('#timeline-1').attr('aria-controls','inline-cnt-1')
-		.attr('aria-expanded','true');
-	});
-	$(".lnk-timeline").click(function(e){                                        
-		e.preventDefault();
-		idCurrent = $('.lnk-timeline.active').attr('id').substring(9);                                                                                            
-		idClicked= $(this).attr('id');
-		
-		// désactiver la timeline courrante
-		$('#inline-cnt-'+idCurrent).hide();                                           
-		$('#timeline-'+idCurrent).removeClass('active')
-		$('#inline-cnt-'+idCurrent).attr('aria-expanded','false')
-		.attr('aria-hidden','true');
-		
-		//activer le timeline cliqué
-		$('#'+idClicked).addClass('active')
-		.attr('aria-controls','inline-cnt-'+idClicked.substring(9))                                 
-		.attr('aria-expanded','true');
-		$('#inline-cnt-'+idClicked.substring(9)).show().attr('aria-hidden','false');                                              
-		/*$('#inline-cnt-'+idClicked.substring(9)).animate({
-		height: 'toggle'
-		}).attr('aria-hidden','false');*/
-	});
+$(document).ready(function(e) {
+    // init la premiere timeline
+    $("#inline-cnt-1").show().attr('aria-hidden', 'false');
+    $('#timeline-1').attr('aria-controls', 'inline-cnt-1')
+        .attr('aria-expanded', 'true');
+});
+$(".lnk-timeline").click(function(e) {
+    e.preventDefault();
+    idCurrent = $('.lnk-timeline.active').attr('id').substring(9);
+    idClicked = $(this).attr('id');
 
+    // désactiver la timeline courrante
+    $('#inline-cnt-' + idCurrent).hide();
+    $('#timeline-' + idCurrent).removeClass('active')
+    $('#inline-cnt-' + idCurrent).attr('aria-expanded', 'false')
+        .attr('aria-hidden', 'true');
+
+    //activer le timeline cliqué
+    $('#' + idClicked).addClass('active')
+        .attr('aria-controls', 'inline-cnt-' + idClicked.substring(9))
+        .attr('aria-expanded', 'true');
+    $('#inline-cnt-' + idClicked.substring(9)).show().attr('aria-hidden', 'false');
+    /*$('#inline-cnt-'+idClicked.substring(9)).animate({
+    height: 'toggle'
+    }).attr('aria-hidden','false');*/
+});
 </script>
